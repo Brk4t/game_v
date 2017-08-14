@@ -3,7 +3,7 @@
 function setup() {
   createCanvas(840, 1000);
 
-  var sz = 10;
+  var sz = 6;
   grille = new Grid(sz);
   grille.init();
   var i = 0;
@@ -25,6 +25,7 @@ function draw() {
   background((10, 10, 40));
   grille.calculate();
   grille.display();
+  grille.mouseover();
 }
 
 function Grid(sz) {
@@ -114,22 +115,22 @@ function Grid(sz) {
     {
       rand6 = floor(random(0, this.n));
     }
-    if(test)
+    if (test)
     {
-    brk = new brique(rand6, this.n);
-    brk.value = floor(random(2, 4));
-    brk.posx = rand6;
-    brk.fall();
+      brk = new brique(rand6, this.n);
+      brk.value = floor(random(2, 4));
+      brk.posx = rand6;
+      brk.fall();
 
-    this.id++;
-    this.content[rand6][0] = brk;
+      this.id++;
+      this.content[rand6][0] = brk;
     }
   }
 
   this.click = function() 
   {
     var flag = false
-    for (var j =0; j<this.n; j++)
+      for (var j =0; j<this.n; j++)
     {
       for (var i=0; i<this.n; i++)
       {
@@ -146,22 +147,22 @@ function Grid(sz) {
             }
           }
         }
-    }
+      }
     } // fin parcours de boucle
     if (flag) {
       this.score = this.score + l[0].value*l[0].value;
       grille.evolve(l);
+      // generation nouvelles briques
+      lo = max(this.n - 6, 1);
+      hi = this.n - 2; 
+      var nw = floor(random(lo, hi));
+      var i = 0;
+      while (i < nw)
+      {
+        i++;
+        grille.brique_appear();
+      }
       flag = false;
-    }
-    // generation nouvelles briques
-    lo = max(this.n - 6, 1);
-    hi = this.n - 2; 
-    var nw = floor(random(lo, hi));
-    var i = 0;
-    while (i < nw)
-    {
-      i++;
-      grille.brique_appear();
     }
   }
 
@@ -244,7 +245,44 @@ function Grid(sz) {
       j++;
     }
   }
-}
+
+  this.mouseover = function()
+  {
+    var flag = false;
+    for (var j =0; j<this.n; j++)
+    {
+      for (var i=0; i<this.n; i++)
+      {
+        if (grille.content[i][j] != null)
+        {
+          brk = grille.content[i][j];
+          if (mouseX > brk.x && mouseY > brk.y && mouseX <brk.x+brk.size && mouseY < brk.y + brk.size)
+          {
+            var l = grille.colles(brk);
+            if (l.length >= brk.value) // possibilité de casser
+            {
+              flag = true;
+              to_hover = l;
+            }
+          }
+        }
+      }
+    } // fin parcours de boucle
+
+    if (flag)
+    {
+      var k = 0;
+      while (to_hover.length > 0 && k <to_hover[0].value)
+      {
+        brk = to_hover[0];
+        to_hover.splice(0, 1);
+        brk.display_over();
+        k++;
+      }
+      flag = false;
+    }
+  }//fin mouseover
+} //fin grid
 
 function brique(r, n) {
   this.posy = 0;
@@ -273,14 +311,28 @@ function brique(r, n) {
     }
   }
 
-  this.display = function() 
+  this.display_over = function() 
   {
-    fill(this.col[this.value]);
+    fill(this.col[this.value],100);
+    stroke(0);
     rect(this.x, this.y, this.size, this.size);
     fill(0, 0, 0);
     textSize(80*7/this.n);
-    text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n))
+    text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n));
   }
+
+
+  this.display = function() 
+  {
+    stroke(255);
+    fill(this.col[this.value]);
+    rect(this.x, this.y, this.size, this.size);
+    fill(0, 0, 0);
+    stroke(0);
+    textSize(80*7/this.n);
+    text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n));
+  }
+
 
   this.stop = function()
   {
