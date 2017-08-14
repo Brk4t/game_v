@@ -3,8 +3,8 @@
 function setup() {
   createCanvas(840, 1000);
 
-  var sz = 10
-    grille = new Grid(sz);
+  var sz = 10;
+  grille = new Grid(sz);
   grille.init();
   var i = 0;
   while ( i< sz)
@@ -93,7 +93,7 @@ function Grid(sz) {
       }
     }
     //Affiche score:
-    fill(255,255,255);
+    fill(255, 255, 255);
     textAlign(CENTER);
     textSize(36);
     text("Score : " + this.score, 420, 950);
@@ -104,27 +104,31 @@ function Grid(sz) {
     test= false;
     for (i =0; i < this.n; i++)
     {
-      print(this.content[i][0]);
       test = ((this.content[i][0] == null) || test);   // test si la premiere ligne est pleine si oui perdu lol sinon on fait apparaitre
     }
-    
+    print(test);
+
     var rand6 = floor(random(0, this.n));
-    
+
     while (this.content[rand6][0] != null && test)
     {
       rand6 = floor(random(0, this.n));
     }
+    if(test)
+    {
     brk = new brique(rand6, this.n);
     brk.value = floor(random(2, 4));
     brk.posx = rand6;
     brk.fall();
-    
+
     this.id++;
     this.content[rand6][0] = brk;
+    }
   }
 
   this.click = function() 
   {
+    var flag = false
     for (var j =0; j<this.n; j++)
     {
       for (var i=0; i<this.n; i++)
@@ -137,21 +141,27 @@ function Grid(sz) {
             var l = grille.colles(brk);
             if (l.length >= brk.value)
             {
-              this.score = this.score + brk.value*brk.value;
-              grille.evolve(l);
-              lo = max(this.n - 6,1);
-              hi = this.n - 2; 
-              var nw = floor(random(lo, hi));
-              var i = 0;
-              while (i < nw)
-              {
-                i++;
-                grille.brique_appear();
-              }
+              flag = true;
+              to_evolve = brk;
             }
           }
         }
-      }
+    }
+    } // fin parcours de boucle
+    if (flag) {
+      this.score = this.score + l[0].value*l[0].value;
+      grille.evolve(l);
+      flag = false;
+    }
+    // generation nouvelles briques
+    lo = max(this.n - 6, 1);
+    hi = this.n - 2; 
+    var nw = floor(random(lo, hi));
+    var i = 0;
+    while (i < nw)
+    {
+      i++;
+      grille.brique_appear();
     }
   }
 
@@ -267,7 +277,6 @@ function brique(r, n) {
   {
     fill(this.col[this.value]);
     rect(this.x, this.y, this.size, this.size);
-    print(this.y);
     fill(0, 0, 0);
     textSize(80*7/this.n);
     text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n))
@@ -277,7 +286,6 @@ function brique(r, n) {
   {
     this.ay = 0;
     this.vy = 0;
-    
   }
 
   this.fall = function()
