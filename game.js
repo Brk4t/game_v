@@ -3,7 +3,7 @@
 function setup() {
   createCanvas(840, 1000);
 
-  var sz = 7
+  var sz = 10
     grille = new Grid(sz);
   grille.init();
   var i = 0;
