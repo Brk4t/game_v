@@ -1,4 +1,4 @@
-
+// GAME VERSION 1.0
 
 function setup() {
   createCanvas(840, 1000);
