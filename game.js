@@ -73,6 +73,7 @@ function Grid(sz) {
 
   this.display = function()
   {
+    strokeWeight(1);
     stroke(255); //WHAT IS STROKE ?
     for (var i =0; i<this.n+1; i++)
     {
@@ -314,10 +315,12 @@ function brique(r, n) {
   this.display_over = function() 
   {
     fill(this.col[this.value],100);
+    strokeWeight(4);
     stroke(0);
     rect(this.x, this.y, this.size, this.size);
     fill(0, 0, 0);
     textSize(80*7/this.n);
+    strokeWeight(1);
     text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n));
   }
 
@@ -351,9 +354,4 @@ function brique(r, n) {
 function mouseClicked() 
 {
   grille.click();
-}
-
-function keyPressed() 
-{
-  grille.brique_appear();
 }
