@@ -30,7 +30,7 @@ function draw() {
   grille.calculate();
   grille.display();
   affichage.show();
-    console.log(affichage.state);
+
   grille.mouseover();
 }
 
@@ -74,6 +74,29 @@ function Grid(sz) {
           }
         }
       }
+    }
+
+    var flag = false;
+    for (var j =0; j<this.n; j++)
+    {
+      for (var i=0; i<this.n; i++)
+      {
+        if (grille.content[i][j] != null)
+        {
+          brk = grille.content[i][j];
+          var l = grille.colles(brk);
+          if (l.length >= brk.value)
+          {
+            flag = true;
+            to_evolve = brk;
+          }
+        }
+      }
+    }
+    // fin parcours de boucle
+    if (!flag)
+    {
+      affichage.perdre();
     }
   }
 
@@ -243,7 +266,7 @@ function Grid(sz) {
     }
     if (k.value == this.n+1)
     {
-        affichage.gagner();
+      affichage.gagner();
     }
     l.splice(0, 1); // getting rid of the clicked tile
 
@@ -324,7 +347,7 @@ function brique(r, n) {
 
   this.display_over = function() 
   {
-    fill(this.col[this.value],100);
+    fill(this.col[this.value], 100);
     strokeWeight(4);
     stroke(0);
     rect(this.x, this.y, this.size, this.size);
@@ -368,30 +391,30 @@ function mouseClicked()
 
 function EndGame()
 {
-    /* 0 = partie en cours
-       1 = gagné
-       2 = perdu
-    */
-    this.state = 0;
-    
-    this.gagner = function() {
-        this.state = 1;
+  /* 0 = partie en cours
+   1 = gagné
+   2 = perdu
+   */
+  this.state = 0;
+
+  this.gagner = function() {
+    this.state = 1;
+  }
+  this.perdre = function() {
+    this.state = 2;
+  }
+  this.show = function() {
+    if (this.state == 1)
+    {
+      noStroke();
+      fill(255);
+      textSize(100);
+      text("Gagné", width/2, height/2-100);
+    } else if (this.state == 2) {
+      noStroke();
+      fill(255);
+      textSize(100);
+      text("Perdu", width/2, height/2-100);
     }
-    this.perdre = function() {
-        this.state = 2;
-    }
-    this.show = function() {
-        if (this.state == 1)
-        {
-            noStroke();
-            fill(255);
-            textSize(100);
-            text("Gagné",width/2,height/2-100);
-        } else if (this.state == 2) {
-            noStroke();
-            fill(255);
-            textSize(100);
-            text("Perdu",width/2,height/2-100);
-        }
-    }
+  }
 }
