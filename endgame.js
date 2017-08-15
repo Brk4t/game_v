@@ -5,7 +5,7 @@ function EndGame()
    2 = perdu
    3 = gagné + continue
    */
-  this.state = 0; // 0 pour partie en cours
+  this.state = 2; // 0 pour partie en cours
 
   this.gagner = function() {
     if (this.state == 0)
@@ -19,7 +19,7 @@ function EndGame()
   this.show = function() {
     if (this.state == 1) // WIN
     {
-      fill(color(0, 255, 0),0.5); // BIG BOX BEHIND
+      fill(0, 255, 0,220); // BIG BOX BEHIND
       rect(120, 200, 600, 500);
       
       noStroke();
@@ -50,7 +50,7 @@ function EndGame()
       }
     } else if (this.state == 2) // LOSE 
     {
-      fill(color(255, 0, 0,0.5)); // BIG BOX BEHIND
+      fill(255, 0, 0,220); // BIG BOX BEHIND
       rect(120, 200, 600, 500);
 
       noStroke();
