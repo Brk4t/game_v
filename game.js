@@ -117,9 +117,11 @@ function Grid(sz) {
           {
             flag = true;
             to_evolve = brk;
+            break;
           }
         }
       }
+      if (flag) { break; }
     }
     // fin parcours de boucle
     if (!flag)
