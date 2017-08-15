@@ -101,7 +101,7 @@ function EndGame()
       this.continuer.display();
     } else if (this.state == 2) // LOSE 
     {
-      fill(255, 0, 0, 220); // BIG BOX BEHIND
+      fill(255, 0, 0, 100); // BIG BOX BEHIND
       rect(120, 200, 600, 600);
 
       noStroke();
@@ -165,7 +165,7 @@ function EndGame()
 
   this.click_partie_rapide = function()
   {
-    grille = new Grid(sz);
+    grille = new Grid(sz,table_init);
     grille.init();
     this.state = 0;
   }

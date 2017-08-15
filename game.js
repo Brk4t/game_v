@@ -4,12 +4,21 @@ var affichage;
 var img;
 var sz = 6;
 
+var table_init;
+var file = "init_grid.csv";
+
+
 function setup() {
   createCanvas(840, 1000);
-  
-  grille = new Grid(sz);
+
+
+  affichage = new EndGame();
+
+  console.log(table_init.getRowCount()+" rows.");
+  console.log(table_init.getColumnCount()+" columns.");
+  grille = new Grid(sz,table_init);
   grille.init();
-  
+
   affichage = new EndGame();
   affichage.init();
 }

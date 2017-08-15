@@ -1,5 +1,5 @@
 
-function Grid(sz) {
+function Grid(sz,tab) {
   this.n = sz;
   this.cell_w = floor(width/this.n);
   this.cell_h = floor(width/this.n);
@@ -9,7 +9,7 @@ function Grid(sz) {
   this.id = 0;
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
-
+  this.initial_grid = tab;
 
   this.init = function() {
     for (var i =0; i<this.n+2; i++)
@@ -17,6 +17,7 @@ function Grid(sz) {
       this.x_to_pix[i] = floor(this.cell_w*i);
       this.y_to_pix[i] = floor(this.cell_h*i);
     }
+    
     var i = 0;
     while ( i< sz)
     {
@@ -31,7 +32,26 @@ function Grid(sz) {
       this.brique_appear();
       i++
     }
+    this.load();
   }
+
+  this.load = function() {
+    for (var i=0; i<this.n; i++)
+    {
+        for (var j=this.n-1; j>=0; j--)
+        {
+            if (this.initial_grid.get(i,j) != "x")
+            {
+                this.content[j][i] = new brique(j,this.n);
+                this.content[j][i].value = this.initial_grid.get(i,j);
+                this.content[j][i].posy = i;
+                this.content[j][i].fall();
+            } else {
+                this.content[j][i] = null;
+            }
+        }
+    }
+ }
 
   this.calculate = function()
   {
@@ -169,7 +189,7 @@ function Grid(sz) {
       grille.evolve(l);
       // generation nouvelles briques
       lo = max(this.n - 6, 1);
-      hi = this.n - 2; 
+      hi = this.n - 4; 
       var nw = floor(random(lo, hi));
       var i = 0;
       while (i < nw)
