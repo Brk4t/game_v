@@ -87,6 +87,7 @@ function Grid(sz) {
   {
     strokeWeight(1);
     stroke(255); //WHAT IS STROKE ?
+    /* LIGNES
     for (var i =0; i<this.n+1; i++)
     {
       line(this.x_to_pix[0], this.y_to_pix[i], this.x_to_pix[this.n+1], this.y_to_pix[i]);
@@ -95,6 +96,8 @@ function Grid(sz) {
     {
       line(this.x_to_pix[i], this.y_to_pix[0], this.x_to_pix[i], this.y_to_pix[this.n]);
     }
+    
+    */
 
     for (var j =0; j<this.n; j++)
     {

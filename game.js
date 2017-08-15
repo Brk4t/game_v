@@ -42,4 +42,9 @@ function mouseClicked()
   {
     affichage.click_perdre();
   }
+  
+  if(affichage.state == -1)
+  {
+    affichage.click_menu();
+  }
 }
