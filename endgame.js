@@ -7,6 +7,7 @@ function EndGame()
    4 = modes
    5 = classement
    6 = menu
+   7 = parametres
    */
   this.state = 6; // 0 pour partie en cours
 
@@ -27,7 +28,7 @@ function EndGame()
     this.restart = new bouton();
 
     this.menu2 = new bouton();
-
+    this.parametres = new bouton();
 
     this.continuer.x1 = floor(width/2)-floor(width/3);
     this.continuer.y1 = 540;
@@ -70,6 +71,18 @@ function EndGame()
     this.menu2.img_bool = true;
     this.menu2.img = menu;
     this.menu2.img_over = menu_over;
+
+    this.parametres.x1 = floor(width/2)+floor(width/8);
+    this.parametres.y1 = 20;
+    this.parametres.x2 = floor(width/2)+floor(3*width/8);
+    this.parametres.y2 = floor(height/10);
+    this.parametres.text = "Menu";
+    this.parametres.txt_size = 30;
+    this.parametres.col_over = color(200, 0, 0);
+    this.parametres.col = color(150, 0, 0);
+    this.parametres.img_bool = true;
+    this.parametres.img = menu;
+    this.parametres.img_over = menu_over;
 
     this.partie_rapide.x1 = floor(width/2)-floor(width/3);
     this.partie_rapide.y1 = floor(2/5*height)-floor(height/15);
@@ -160,6 +173,7 @@ function EndGame()
       fill(150);
       rect(0, 0, width, floor(3*height/20));
       this.menu2.display();
+      this.parametres.display();
     }
   } // Fin show
 
@@ -168,6 +182,10 @@ function EndGame()
     if (this.continuer.mouseon())
     {
       this.state =0;
+    }    
+    if (this.parametres.mouseon())
+    {
+      this.state =7;
     }
   }
 
@@ -203,19 +221,18 @@ function EndGame()
 
   this.click_menu2= function()
   {
-    if(this.menu2.mouseon())
+    if (this.menu2.mouseon())
     {
       grille.continuer = true;
       this.state = 6;
     }
-    
   }
   this.click_partie_rapide = function()
   {
-    if(!grille.continuer)
+    if (!grille.continuer)
     {
-    grille = new Grid(sz, table_init);
-    grille.init();
+      grille = new Grid(sz, table_init);
+      grille.init();
     }
     this.state = 0;
   }

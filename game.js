@@ -11,7 +11,7 @@ var file = "init_grid.csv";
 
 
 function setup() {
-  var canvas = createCanvas(min(w,840), h-5);
+  var canvas = createCanvas(min(w,750), min(h,1334)-5);
   print(w);
   print(width);
   print(h);
@@ -23,8 +23,6 @@ function setup() {
   
   grille = new Grid(sz,table_init);
   grille.init();
-
-
 }
 
 
