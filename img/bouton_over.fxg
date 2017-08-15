@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="50" viewWidth="200" ai:appVersion="16.0.2.682" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:layerType="page" d:pageHeight="50" d:pageWidth="200" d:type="layer" d:userLabel="Artboard 1">
+    <Group d:type="layer" d:userLabel="Layer 1">
+      <Path winding="nonZero" ai:seqID="1" data="M200 50 0 50 0 0 200 0 200 0 200 50Z">
+        <fill>
+          <SolidColor color="#72C9DE"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" joints="miter" miterLimit="10"/>
+        </stroke>
+      </Path>
+      <Path x="-4.72217" y="-12.46" alpha="0.5" winding="nonZero" ai:seqID="2" data="M0 63.4874C0 63.4874 226.015 20.9791 206.039 8.66757 186.062 -3.64396 1.85791 0.769619 1.85791 0.769619L0 63.4874Z">
+        <fill>
+          <LinearGradient x="3.94922" y="-4.36368" scaleX="203.169" rotation="22.1664">
+            <GradientEntry ratio="0" color="#FFFFFF"/>
+            <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+          </LinearGradient>
+        </fill>
+      </Path>
+      <RichText x="3.9165" y="11.3837" columnCount="1" textAlign="center" tabStops="S36 S72 S108 S144 S180" fontFamily="Myriad" fontSize="30" kerning="on" whiteSpaceCollapse="preserve" width="190.011" height="44.3672" ai:aa="2" ai:seqID="3">
+        <content><p fontFamily="Myriad"><span fontFamily="Myriad">Continuer</span></p></content>
+      </RichText>
+    </Group>
+  </Group>
+  <Private/>
+</Graphic>

@@ -4,7 +4,9 @@ function bouton()
   this.y1 = 0;
   this.x2 = 0;
   this.y2 = 0;
-
+  this.img_bool = false;
+  this.img;
+  this.img_over;
   this.h = this.y2-this.y1;
   this.w = this.x2-this.x1;
 
@@ -17,8 +19,12 @@ function bouton()
 
   this.display = function()
   {
-    if (mouseX > this.x1 && mouseY > this.y1 && mouseX <this.x2  && mouseY < this.y2)
+    if (this.mouseon())
     {
+		if(this.img_bool)
+		{
+		    image(this.img_over, this.x1, this.y1,this.x2-this.x1, this.y2-this.y1)
+		}else{
       //BOX
       fill(this.col_over);
       rect(this.x1, this.y1, this.x2-this.x1, this.y2-this.y1); 
@@ -30,8 +36,12 @@ function bouton()
       this.h = this.y2-this.y1;
       this.w = this.x2-this.x1;
       text(this.text, this.x1 + this.w/2, this.y1+this.h/2 );
+		}
     } else
-    {
+    {		if(this.img_bool)
+		{
+		    image(this.img, this.x1, this.y1,this.x2-this.x1, this.y2-this.y1)
+		}else{
       //BOX
       fill(this.col);
       rect(this.x1, this.y1, this.x2-this.x1, this.y2-this.y1); 
@@ -44,6 +54,7 @@ function bouton()
       this.w = this.x2-this.x1;
       text(this.text, this.x1 + this.w/2, this.y1+this.h/2 );
     }
+	}
   }
 
   this.click =function(fct)

@@ -1,26 +1,28 @@
 // GAME VERSION 1.0
+var w = screen.width;
+var h = screen.height;
 
 var affichage;
 var img;
 var sz = 6;
 
-var table_init;
+var table_init = 0;
 var file = "init_grid.csv";
 
 
 function setup() {
-  var canvas = createCanvas(840, 1000);
+  var canvas = createCanvas(min(w,750), min(h,1334)-5);
+  print(w);
+  print(width);
+  print(h);
+  print(height);
   canvas.parent('container_game');  
-
-  affichage = new EndGame();
-
-  console.log(table_init.getRowCount()+" rows.");
-  console.log(table_init.getColumnCount()+" columns.");
-  grille = new Grid(sz,table_init);
-  grille.init();
-
+  
   affichage = new EndGame();
   affichage.init();
+  
+  grille = new Grid(sz,table_init);
+  grille.init();
 }
 
 
@@ -42,6 +44,7 @@ function mouseClicked()
   if(affichage.state ==0)
   {
     grille.click();
+    affichage.click_menu2();
   }else if(affichage.state == 1)
   {
     affichage.click_gagne();

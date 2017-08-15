@@ -25,12 +25,12 @@ function brique(r, n) {
 
   this.move = function()
   {
-    if (this.y+this.vy<this.posy*this.size)
+    if (this.y+this.vy<this.posy*this.size + floor(3*height/20))
     {
       this.vy = this.vy+this.ay;
       this.y = this.y+this.vy;
     } else { 
-      this.y = this.posy*this.size;
+      this.y = this.posy*this.size+floor(3*height/20);
       this.stop();
     }
   }

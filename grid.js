@@ -10,6 +10,7 @@ function Grid(sz,tab) {
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
   this.initial_grid = tab;
+  this.continuer = false;
 
   this.init = function() {
     for (var i =0; i<this.n+2; i++)
@@ -138,7 +139,7 @@ function Grid(sz,tab) {
     fill(255, 255, 255);
     textAlign(CENTER);
     textSize(36);
-    text("Score : " + this.score, 420, 950);
+    text("Score : " + this.score, width/2, 9*height/10);
   }
 
   this.brique_appear = function()
