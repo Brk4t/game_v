@@ -32,6 +32,10 @@ function Grid(sz,tab) {
       this.brique_appear();
       i++
     }
+    for(var i =0; i< this.n;i++)
+    {
+      this.content[i][0].y = -2*this.content[i][0].size;
+    }
    // this.load();
   }
 

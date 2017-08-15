@@ -8,7 +8,7 @@ function EndGame()
    5 = classement
    6 = menu
    */
-  this.state = 2; // 0 pour partie en cours
+  this.state = 6; // 0 pour partie en cours
 
   //Boutons menu
   this.classement = new bouton();
