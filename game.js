@@ -46,6 +46,7 @@ function mouseClicked()
   if(affichage.state ==0)
   {
     grille.click();
+    affichage.click_menu2();
   }else if(affichage.state == 1)
   {
     affichage.click_gagne();

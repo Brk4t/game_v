@@ -10,6 +10,7 @@ function Grid(sz,tab) {
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
   this.initial_grid = tab;
+  this.continuer = false;
 
   this.init = function() {
     for (var i =0; i<this.n+2; i++)

@@ -22,21 +22,21 @@ function preload() {
   tile_over[9] = loadImage("/img/tile_9_over.png");
   tile_over[10] = loadImage("/img/tile_10_over.png");
   tile_over[11] = loadImage("/img/tile_11_over.png");
-  
+
   bckgrnd = loadImage("/img/background.gif");
-	continuer= loadImage("/img/continuer.gif");
-	menu= loadImage("/img/menu.gif");
-	
-	classement= loadImage("/img/classement.gif");
-	classement_over= loadImage("/img/classement.gif");
+  continuer= loadImage("/img/continuer.gif");
+  continuer_over = loadImage("/img/continuer_over.gif");
 
-	modes= loadImage("/img/modes.gif");
-	modes_over= loadImage("/img/modes.gif");
+  menu= loadImage("/img/menu.gif");
+  menu_over= loadImage("/img/menu_over.gif");
+  
+  classement= loadImage("/img/classement.gif");
+  classement_over= loadImage("/img/classement.gif");
 
-	
-	partie_rapide = loadImage("/img/partie_rapide.gif");
-	partie_rapide_over = loadImage("/img/partie_rapide_over.gif");
+  modes= loadImage("/img/modes.gif");
+  modes_over= loadImage("/img/modes.gif");
 
-continuer_over
 
+  partie_rapide = loadImage("/img/partie_rapide.gif");
+  partie_rapide_over = loadImage("/img/partie_rapide_over.gif");
 }
