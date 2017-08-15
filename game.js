@@ -27,7 +27,8 @@ function setup() {
 function draw() {
   background((10, 10, 40));
   image(bckgrnd,0,0,width,height);
-  grille.calculate();
+  if (affichage.state == 0)
+      grille.calculate();
   grille.display();
   grille.mouseover();
   affichage.show();

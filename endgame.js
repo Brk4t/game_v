@@ -135,7 +135,8 @@ function EndGame()
   }
 
   this.click_perdre = function()
-  {       
+  {
+    console.log("click perdre state="+this.state);
     if (this.restart.mouseon()) // BOUTON REPLAY
     {
       grille = new Grid(sz);
@@ -146,6 +147,7 @@ function EndGame()
     {
       this.state =6; // MENU
     }
+    console.log("click perdre state="+this.state);
   }
 
   this.click_menu = function()
