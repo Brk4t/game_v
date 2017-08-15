@@ -9,8 +9,8 @@ var file = "init_grid.csv";
 
 
 function setup() {
-  createCanvas(840, 1000);
-
+  var canvas = createCanvas(840, 1000);
+  canvas.parent('container_game');  
 
   affichage = new EndGame();
 
