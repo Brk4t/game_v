@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="1000" viewWidth="840" ai:appVersion="16.0.2.682" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:layerType="page" d:pageHeight="1000" d:pageWidth="840" d:type="layer" d:userLabel="Artboard 1">
+    <Group d:type="layer" d:userLabel="Layer 1">
+      <Group x="-39.5239" y="-140.568" ai:seqID="1">
+        <mask>
+          <Group x="39.5239" y="140.568" ai:spare="1">
+            <Rect width="840" height="1000" ai:seqID="2">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="39.5239" y="140.568" winding="nonZero" ai:seqID="3" data="M840 1000 0 1000 0 0 835 0 840 0 840 1000Z">
+          <fill>
+            <SolidColor color="#535368"/>
+          </fill>
+        </Path>
+        <Path x="242.5" y="87.5684" winding="nonZero" ai:seqID="4" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="87.5684" winding="nonZero" ai:seqID="5" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="87.5684" winding="nonZero" ai:seqID="6" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="85" winding="nonZero" ai:seqID="7" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="87.5684" winding="nonZero" ai:seqID="8" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="85" winding="nonZero" ai:seqID="9" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="85" winding="nonZero" ai:seqID="10" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="86.2842" winding="nonZero" ai:seqID="11" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="88.8525" winding="nonZero" ai:seqID="12" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1265" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="2.56836" winding="nonZero" ai:seqID="13" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="2.56836" winding="nonZero" ai:seqID="14" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="2.56836" winding="nonZero" ai:seqID="15" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" winding="nonZero" ai:seqID="16" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="2.56836" winding="nonZero" ai:seqID="17" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" winding="nonZero" ai:seqID="18" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path winding="nonZero" ai:seqID="19" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="1.28418" winding="nonZero" ai:seqID="20" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="3.85254" winding="nonZero" ai:seqID="21" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="256.568" winding="nonZero" ai:seqID="22" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="256.568" winding="nonZero" ai:seqID="23" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="256.568" winding="nonZero" ai:seqID="24" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="254" winding="nonZero" ai:seqID="25" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="256.568" winding="nonZero" ai:seqID="26" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="254" winding="nonZero" ai:seqID="27" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="254" winding="nonZero" ai:seqID="28" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="255.284" winding="nonZero" ai:seqID="29" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="257.853" winding="nonZero" ai:seqID="30" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1265" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="171.568" winding="nonZero" ai:seqID="31" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="171.568" winding="nonZero" ai:seqID="32" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="171.568" winding="nonZero" ai:seqID="33" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4634" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="169" winding="nonZero" ai:seqID="34" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="171.568" winding="nonZero" ai:seqID="35" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="169" winding="nonZero" ai:seqID="36" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="169" winding="nonZero" ai:seqID="37" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="170.284" winding="nonZero" ai:seqID="38" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="172.853" winding="nonZero" ai:seqID="39" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1265" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="420.568" winding="nonZero" ai:seqID="40" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="420.568" winding="nonZero" ai:seqID="41" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="420.568" winding="nonZero" ai:seqID="42" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="418" winding="nonZero" ai:seqID="43" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="420.568" winding="nonZero" ai:seqID="44" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="418" winding="nonZero" ai:seqID="45" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="418" winding="nonZero" ai:seqID="46" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="419.284" winding="nonZero" ai:seqID="47" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="421.853" winding="nonZero" ai:seqID="48" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="335.568" winding="nonZero" ai:seqID="49" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="335.568" winding="nonZero" ai:seqID="50" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="335.568" winding="nonZero" ai:seqID="51" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="333" winding="nonZero" ai:seqID="52" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="335.568" winding="nonZero" ai:seqID="53" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="333" winding="nonZero" ai:seqID="54" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="333" winding="nonZero" ai:seqID="55" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="334.284" winding="nonZero" ai:seqID="56" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="336.853" winding="nonZero" ai:seqID="57" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="589.568" winding="nonZero" ai:seqID="58" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="589.568" winding="nonZero" ai:seqID="59" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4653" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="589.568" winding="nonZero" ai:seqID="60" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="587" winding="nonZero" ai:seqID="61" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0044 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="589.568" winding="nonZero" ai:seqID="62" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="587" winding="nonZero" ai:seqID="63" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="587" winding="nonZero" ai:seqID="64" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0044 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="588.284" winding="nonZero" ai:seqID="65" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0034 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="590.853" winding="nonZero" ai:seqID="66" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0034 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4629" y="-83.1265" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="504.568" winding="nonZero" ai:seqID="67" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="504.568" winding="nonZero" ai:seqID="68" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="504.568" winding="nonZero" ai:seqID="69" data="M96.6504 28.1323 96.248 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="502" winding="nonZero" ai:seqID="70" data="M96.6494 28.1323 96.2471 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="504.568" winding="nonZero" ai:seqID="71" data="M96.6494 28.1323 96.2471 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="502" winding="nonZero" ai:seqID="72" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="502" winding="nonZero" ai:seqID="73" data="M96.6499 28.1323 96.2476 83.7007 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="503.284" winding="nonZero" ai:seqID="74" data="M96.6504 28.1323 96.248 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="505.853" winding="nonZero" ai:seqID="75" data="M96.6484 28.1323 96.2461 83.7007 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1323Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1265" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="757.142" winding="nonZero" ai:seqID="76" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="757.142" winding="nonZero" ai:seqID="77" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4634" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="757.142" winding="nonZero" ai:seqID="78" data="M96.6504 28.1318 96.248 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="754.574" winding="nonZero" ai:seqID="79" data="M96.6494 28.1318 96.2471 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="757.142" winding="nonZero" ai:seqID="80" data="M96.6494 28.1318 96.2471 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="754.574" winding="nonZero" ai:seqID="81" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="754.574" winding="nonZero" ai:seqID="82" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="755.858" winding="nonZero" ai:seqID="83" data="M96.6504 28.1328 96.248 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="758.426" winding="nonZero" ai:seqID="84" data="M96.6484 28.1328 96.2461 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.126" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="672.142" winding="nonZero" ai:seqID="85" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4634" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="672.142" winding="nonZero" ai:seqID="86" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="672.142" winding="nonZero" ai:seqID="87" data="M96.6504 28.1318 96.248 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="669.574" winding="nonZero" ai:seqID="88" data="M96.6494 28.1318 96.2471 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="672.142" winding="nonZero" ai:seqID="89" data="M96.6494 28.1318 96.2471 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="669.574" winding="nonZero" ai:seqID="90" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="669.574" winding="nonZero" ai:seqID="91" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1274" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="670.858" winding="nonZero" ai:seqID="92" data="M96.6504 28.1328 96.248 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1284" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="673.426" winding="nonZero" ai:seqID="93" data="M96.6484 28.1328 96.2461 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.126" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="926.142" winding="nonZero" ai:seqID="94" data="M96.6499 28.1318 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="926.142" winding="nonZero" ai:seqID="95" data="M96.6499 28.1318 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="926.142" winding="nonZero" ai:seqID="96" data="M96.6504 28.1318 96.248 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="923.574" winding="nonZero" ai:seqID="97" data="M96.6494 28.1318 96.2471 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="926.142" winding="nonZero" ai:seqID="98" data="M96.6494 28.1318 96.2471 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="923.574" winding="nonZero" ai:seqID="99" data="M96.6499 28.1318 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="923.574" winding="nonZero" ai:seqID="100" data="M96.6499 28.1318 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="924.858" winding="nonZero" ai:seqID="101" data="M96.6504 28.1328 96.248 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="927.426" winding="nonZero" ai:seqID="102" data="M96.6484 28.1328 96.2461 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="841.142" winding="nonZero" ai:seqID="103" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="841.142" winding="nonZero" ai:seqID="104" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="841.142" winding="nonZero" ai:seqID="105" data="M96.6504 28.1318 96.248 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4634" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="838.574" winding="nonZero" ai:seqID="106" data="M96.6494 28.1318 96.2471 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4629" y="-83.127" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="841.142" winding="nonZero" ai:seqID="107" data="M96.6494 28.1318 96.2471 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="838.574" winding="nonZero" ai:seqID="108" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="838.574" winding="nonZero" ai:seqID="109" data="M96.6499 28.1318 96.2476 83.7002 47.9229 111.136 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="839.858" winding="nonZero" ai:seqID="110" data="M96.6504 28.1328 96.248 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4658" y="-83.1299" scaleX="223.09" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="842.426" winding="nonZero" ai:seqID="111" data="M96.6484 28.1328 96.2461 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="1090.14" winding="nonZero" ai:seqID="112" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="1090.14" winding="nonZero" ai:seqID="113" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="1090.14" winding="nonZero" ai:seqID="114" data="M96.6504 28.1328 96.248 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="1087.57" winding="nonZero" ai:seqID="115" data="M96.6494 28.1328 96.2471 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="1090.14" winding="nonZero" ai:seqID="116" data="M96.6494 28.1328 96.2471 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="1087.57" winding="nonZero" ai:seqID="117" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="1087.57" winding="nonZero" ai:seqID="118" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="1088.86" winding="nonZero" ai:seqID="119" data="M96.6504 28.1318 96.248 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="1091.43" winding="nonZero" ai:seqID="120" data="M96.6484 28.1318 96.2461 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="1005.14" winding="nonZero" ai:seqID="121" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="1005.14" winding="nonZero" ai:seqID="122" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="1005.14" winding="nonZero" ai:seqID="123" data="M96.6504 28.1328 96.248 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="1002.57" winding="nonZero" ai:seqID="124" data="M96.6494 28.1328 96.2471 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="1005.14" winding="nonZero" ai:seqID="125" data="M96.6494 28.1328 96.2471 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="1002.57" winding="nonZero" ai:seqID="126" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="1002.57" winding="nonZero" ai:seqID="127" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4653" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="1003.86" winding="nonZero" ai:seqID="128" data="M96.6504 28.1318 96.248 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="1006.43" winding="nonZero" ai:seqID="129" data="M96.6484 28.1318 96.2461 83.7002 47.9219 111.136 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="242.5" y="1259.14" winding="nonZero" ai:seqID="130" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4644" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="339.149" y="1259.14" winding="nonZero" ai:seqID="131" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="435.799" y="1259.14" winding="nonZero" ai:seqID="132" data="M96.6504 28.1328 96.248 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4663" y="-83.1299" scaleX="223.09" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="532.45" y="1256.57" winding="nonZero" ai:seqID="133" data="M96.6494 28.1328 96.2471 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4653" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="629.099" y="1259.14" winding="nonZero" ai:seqID="134" data="M96.6494 28.1328 96.2471 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="145.85" y="1256.57" winding="nonZero" ai:seqID="135" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="47.4492" y="1256.57" winding="nonZero" ai:seqID="136" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="725.749" y="1257.86" winding="nonZero" ai:seqID="137" data="M96.6504 28.1309 96.248 83.6992 47.9219 111.135 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1309Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.1279" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="822.399" y="1260.43" winding="nonZero" ai:seqID="138" data="M96.6484 28.1309 96.2461 83.6992 47.9219 111.135 0 83.0039 0.402344 27.4355 48.7266 0 96.6484 28.1309Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="195.05" y="1174.14" winding="nonZero" ai:seqID="139" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="291.7" y="1174.14" winding="nonZero" ai:seqID="140" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4653" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="388.35" y="1174.14" winding="nonZero" ai:seqID="141" data="M96.6504 28.1328 96.248 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6504 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4663" y="-83.1299" scaleX="223.09" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="485" y="1171.57" winding="nonZero" ai:seqID="142" data="M96.6494 28.1328 96.2471 83.7012 47.9219 111.137 0 83.0039 0.402344 27.4355 48.7266 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4653" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="581.65" y="1174.14" winding="nonZero" ai:seqID="143" data="M96.6494 28.1328 96.2471 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7275 0 96.6494 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="98.4004" y="1171.57" winding="nonZero" ai:seqID="144" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1289" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path y="1171.57" winding="nonZero" ai:seqID="145" data="M96.6499 28.1328 96.2476 83.7012 47.9229 111.137 0 83.0039 0.402344 27.4355 48.7271 0 96.6499 28.1328Z">
+          <fill>
+            <LinearGradient x="-80.4648" y="-83.1279" scaleX="223.088" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="678.299" y="1172.86" winding="nonZero" ai:seqID="146" data="M96.6504 28.1318 96.248 83.7002 47.9219 111.136 0 83.0049 0.402344 27.4365 48.7266 0 96.6504 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.127" scaleX="223.086" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Path x="774.95" y="1175.43" winding="nonZero" ai:seqID="147" data="M96.6484 28.1318 96.2461 83.7002 47.9219 111.136 0 83.0049 0.402344 27.4365 48.7266 0 96.6484 28.1318Z">
+          <fill>
+            <LinearGradient x="-80.4639" y="-83.126" scaleX="223.084" rotation="47.1211">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Rect y="845" width="840" height="160" ai:seqID="148">
+        <fill>
+          <SolidColor color="#888C99"/>
+        </fill>
+      </Rect>
+      <Group y="840.003" ai:seqID="149" flm:knockout="false">
+        <Path winding="nonZero" ai:seqID="150" data="M0 4.99707C0 4.99707 3.28125 4.90332 9.43359 4.72754 15.5859 4.56641 24.6094 4.25684 36.0938 4.00781 47.5781 3.75488 61.5234 3.44629 77.5195 3.09375 93.5156 2.77441 111.563 2.41113 131.25 2.13867 141.094 1.9873 151.348 1.83008 161.96 1.66699 172.573
+ 1.54102 183.545 1.41211 194.824 1.27832 217.383 1.03516 241.172 0.724609 265.781 0.605469 278.086 0.523438 290.596 0.439453 303.259 0.354492 315.923 0.259766 328.74 0.181641 341.66 0.173828 367.5 0.116211 393.75 0.0585938 420 0 446.25 0.0566406
+ 472.5 0.113281 498.34 0.168945 504.8 0.183594 511.234 0.198242 517.637 0.212891 524.039 0.255859 530.409 0.298828 536.74 0.341797 549.404 0.426758 561.914 0.511719 574.219 0.59375 598.828 0.71582 622.617 1.01367 645.176 1.26465 656.455 1.39746
+ 667.427 1.52637 678.039 1.65137 688.652 1.81543 698.906 1.97363 708.75 2.12598 728.438 2.40039 746.484 2.75977 762.48 3.08398 778.477 3.43848 792.422 3.74805 803.906 4.00195 815.391 4.25391 824.414 4.5625 830.566 4.72559 836.719 4.90234 840 4.99707
+ 840 4.99707 840 4.99707 836.719 5.0918 830.566 5.26855 824.414 5.43164 815.391 5.74023 803.906 5.99219 792.422 6.24609 778.477 6.55566 762.48 6.91016 746.484 7.23438 728.438 7.59375 708.75 7.86816 698.906 8.02051 688.652 8.17871 678.039 8.34277
+ 667.427 8.46777 656.455 8.59668 645.176 8.72949 622.617 8.98047 598.828 9.27832 574.219 9.40039 561.914 9.48242 549.404 9.56738 536.74 9.65234 530.409 9.69531 524.039 9.73828 517.637 9.78125 511.234 9.7959 504.8 9.81055 498.34 9.8252 472.5 9.88086
+ 446.25 9.9375 420 9.99414 393.75 9.93555 367.5 9.87793 341.66 9.82031 328.74 9.8125 315.923 9.73438 303.259 9.63965 290.596 9.55469 278.086 9.4707 265.781 9.38867 241.172 9.26953 217.383 8.95898 194.824 8.71582 183.545 8.58203 172.573 8.45313
+ 161.96 8.32715 151.348 8.16406 141.094 8.00684 131.25 7.85547 111.563 7.58301 93.5156 7.21973 77.5195 6.90039 61.5234 6.54785 47.5781 6.23926 36.0938 5.98633 24.6094 5.7373 15.5859 5.42773 9.43359 5.2666 3.28125 5.09082 0 4.99707 0 4.99707Z">
+          <fill>
+            <SolidColor color="#F2F2F2"/>
+          </fill>
+        </Path>
+      </Group>
+    </Group>
+  </Group>
+  <Private/>
+</Graphic>

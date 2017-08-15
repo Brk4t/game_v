@@ -22,4 +22,6 @@ function preload() {
   tile_over[9] = loadImage("img/tile_9_over.png");
   tile_over[10] = loadImage("img/tile_10_over.png");
   tile_over[11] = loadImage("img/tile_11_over.png");
+  
+  bckgrnd = loadImage("img/background.gif");
 }
