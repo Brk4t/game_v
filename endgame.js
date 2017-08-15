@@ -9,6 +9,13 @@ function EndGame()
    */
   this.state = -1; // 0 pour partie en cours
 
+  //Boutons
+  this.classement = new bouton();
+  this.partie_rapide = new bouton();
+  this.modes = new bouton();
+
+
+
   this.gagner = function() {
     if (this.state == 0)
     {
@@ -148,16 +155,9 @@ function EndGame()
 
   this.click_menu = function()
   {
-    if (mouseX > 220 && mouseY > 300 && mouseX <220+420 && mouseY < 400) // CLICK PARTIE RAPIDE
-    {
-      this.click_partie_rapide();
-    } else if (mouseX > 220 && mouseY > 500 && mouseX <640 && mouseY < 600) // CLICK MODES
-    {
-      this.click_modes();
-    } else if (mouseX > 220 && mouseY > 700 && mouseX <220+420 && mouseY <800) // CLICK CLASSEMENT
-    {
-      this.click_classement();
-    }
+    this.classement.click(this.click_classement);
+    this.partie_rapide.click( this.click_partie_rapide);
+    this.modes.click(this.click_modes);
   }
 
 
@@ -183,64 +183,30 @@ function EndGame()
     background((10, 10, 40));
 
     // PARTIE RAPIDE
-    if (mouseX > 220 && mouseY > 300 && mouseX <220+420 && mouseY < 400)
-    {
-      //DRAW BUTTON
-      fill(color(200, 200, 200));
-      rect(220, 300, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Partie rapide", width/2, 365);
-    } else
-    {
-      //DRAW BUTTON
-      fill(color(150, 150, 150));
-      rect(220, 300, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Partie rapide", width/2, 365);
-    }
-    // MODES
-    if (mouseX > 220 && mouseY > 500 && mouseX <640 && mouseY < 600)
-    {
-      //DRAW BUTTON
-      fill(color(200, 200, 200));
-      rect(220, 500, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Modes de jeu", width/2, 565);
-    } else {
-      //DRAW BUTTON
-      fill(color(150, 150, 150));
-      rect(220, 500, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Modes de jeu", width/2, 565);
-    }
+    this.partie_rapide.x1 = 220;
+    this.partie_rapide.y1 = 300;
+    this.partie_rapide.x2 = 640;
+    this.partie_rapide.y2 = 400;
+    this.partie_rapide.text = "Partie Rapide";
+
+    this.partie_rapide.display();
+
+    // MODES  
+    this.modes.x1 = 220;
+    this.modes.y1 = 500;
+    this.modes.x2 = 640;
+    this.modes.y2 = 600;
+    this.modes.text = "Modes";
+
+    this.modes.display();
 
     //CLASSEMENT
-    if (mouseX > 220 && mouseY > 700 && mouseX <220+420 && mouseY <800)
-    {
-      //DRAW BUTTON
-      fill(color(200, 200, 200));
-      rect(220, 700, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Classement", width/2, 765);
-    } else
-    {
-      //DRAW BUTTON
-      fill(color(150, 150, 150));
-      rect(220, 700, 420, 100);
-      //DRAW WRITING
-      textSize(50);
-      fill(0);
-      text("Classement", width/2, 765);
-    }
+    this.classement.x1 = 220;
+    this.classement.y1 = 700;
+    this.classement.x2 = 640;
+    this.classement.y2 = 800;
+    this.classement.text = "Classement";
+
+    this.classement.display();
   }
 }
