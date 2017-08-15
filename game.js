@@ -6,11 +6,10 @@ var sz = 6;
 
 function setup() {
   createCanvas(840, 1000);
-
+  
   grille = new Grid(sz);
   grille.init();
-
-
+  
   affichage = new EndGame();
   affichage.init();
 }
@@ -28,23 +27,16 @@ function draw() {
 
 function mouseClicked() 
 {
-  if (affichage.state ==0)
+  if(affichage.state ==0)
   {
     grille.click();
-  }
-
-  if (affichage.state ==1)
+  }else if(affichage.state == 1)
   {
     affichage.click_gagne();
-  }
-
-
-  if (affichage.state ==2)
+  }else if(affichage.state == 2)
   {
     affichage.click_perdre();
-  }
-  
-  if(affichage.state == -1)
+  }else if(affichage.state == 6)
   {
     affichage.click_menu();
   }

@@ -123,7 +123,6 @@ function Grid(sz) {
     {
       test = ((this.content[i][0] == null) || test);   // test si la premiere ligne est pleine si oui perdu lol sinon on fait apparaitre
     }
-    print(test);
 
     var rand6 = floor(random(0, this.n));
 

@@ -6,6 +6,7 @@ function EndGame()
    3 = gagné + continue
    4 = modes
    5 = classement
+   6 = menu
    */
   this.state = 2; // 0 pour partie en cours
 
@@ -49,6 +50,24 @@ function EndGame()
     this.menu.txt_size = 30;
     this.menu.col_over = color(200, 0, 0);
     this.menu.col = color(150, 0, 0);
+
+    this.partie_rapide.x1 = 220;
+    this.partie_rapide.y1 = 300;
+    this.partie_rapide.x2 = 640;
+    this.partie_rapide.y2 = 400;
+    this.partie_rapide.text = "Partie Rapide";
+
+    this.modes.x1 = 220;
+    this.modes.y1 = 500;
+    this.modes.x2 = 640;
+    this.modes.y2 = 600;
+    this.modes.text = "Modes";
+
+    this.classement.x1 = 220;
+    this.classement.y1 = 700;
+    this.classement.x2 = 640;
+    this.classement.y2 = 800;
+    this.classement.text = "Classement";
   }
 
 
@@ -62,9 +81,9 @@ function EndGame()
   this.perdre = function() {
     this.state = 2;
   }
-  this.show = function() {
 
-    if (this.state == -1)
+  this.show = function() {
+    if (this.state == 6)
     {
       this.display_menu();
     }
@@ -80,7 +99,6 @@ function EndGame()
       text("Gagné", width/2, height/2-100);
 
       this.continuer.display();
-      
     } else if (this.state == 2) // LOSE 
     {
       fill(255, 0, 0, 220); // BIG BOX BEHIND
@@ -93,7 +111,6 @@ function EndGame()
 
       this.restart.display();
       this.menu.display();
-      
     }
 
     if (this.state == 4)
@@ -113,7 +130,7 @@ function EndGame()
   {
     if (this.continuer.mouseon())
     {
-      affichage.state =0;
+      this.state =0;
     }
   }
 
@@ -123,19 +140,26 @@ function EndGame()
     {
       grille = new Grid(sz);
       grille.init();
-      affichage.state =0;
+      this.state =0;
     }
     if (this.menu.mouseon()) // BOUTON MENU
     {
-      affichage.state =-1; // MENU
+      this.state =6; // MENU
     }
   }
 
   this.click_menu = function()
   {
-    this.classement.click(this.click_classement);
-    this.partie_rapide.click( this.click_partie_rapide);
-    this.modes.click(this.click_modes);
+    if (this.classement.mouseon())
+    {
+      this.click_classement();
+    }else if(this.partie_rapide.mouseon())
+    {
+      this.click_partie_rapide();
+    }else if(this.modes.mouseon())
+    {
+      this.click_modes();
+    }
   }
 
 
@@ -143,48 +167,26 @@ function EndGame()
   {
     grille = new Grid(sz);
     grille.init();
-    affichage.state = 0;
+    this.state = 0;
   }
 
   this.click_modes = function()
   {
-    affichage.state = 4;
+    this.state = 4;
   }
 
   this.click_classement = function()
   {
-    affichage.state = 5;
+    this.state = 5;
   }
 
   this.display_menu = function()
   {
     background((10, 10, 40));
 
-    // PARTIE RAPIDE
-    this.partie_rapide.x1 = 220;
-    this.partie_rapide.y1 = 300;
-    this.partie_rapide.x2 = 640;
-    this.partie_rapide.y2 = 400;
-    this.partie_rapide.text = "Partie Rapide";
-
+    print("display menu");
     this.partie_rapide.display();
-
-    // MODES  
-    this.modes.x1 = 220;
-    this.modes.y1 = 500;
-    this.modes.x2 = 640;
-    this.modes.y2 = 600;
-    this.modes.text = "Modes";
-
     this.modes.display();
-
-    //CLASSEMENT
-    this.classement.x1 = 220;
-    this.classement.y1 = 700;
-    this.classement.x2 = 640;
-    this.classement.y2 = 800;
-    this.classement.text = "Classement";
-
     this.classement.display();
   }
 }
