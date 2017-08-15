@@ -17,6 +17,20 @@ function Grid(sz) {
       this.x_to_pix[i] = floor(this.cell_w*i);
       this.y_to_pix[i] = floor(this.cell_h*i);
     }
+    var i = 0;
+    while ( i< sz)
+    {
+      this.brique_appear();
+      i++
+    }
+    this.calculate();
+    this.display();
+    i = 0;
+    while ( i< sz)
+    {
+      this.brique_appear();
+      i++
+    }
   }
 
   this.calculate = function()
