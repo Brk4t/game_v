@@ -10,13 +10,13 @@ function Grid(sz) {
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
 
-
   this.init = function() {
     for (var i =0; i<this.n+2; i++)
     {
       this.x_to_pix[i] = floor(this.cell_w*i);
       this.y_to_pix[i] = floor(this.cell_h*i);
     }
+    /*
     var i = 0;
     while ( i< sz)
     {
@@ -30,8 +30,46 @@ function Grid(sz) {
     {
       this.brique_appear();
       i++
-    }
+    }*/
+    this.load("init_grid.tsv");
   }
+
+  this.load = function(file) {
+    var table = loadTable(file,"tsv");
+    
+    this.content[1][5] = new brique(1,6);
+    this.content[1][5].value = 4;
+    this.content[1][5].posy = 5;
+    this.content[1][5].fall();
+    this.content[2][5] = new brique(2,6);
+    this.content[2][5].value = 4;
+    this.content[2][5].posy = 5;
+    this.content[2][5].fall();
+    this.content[3][5] = new brique(3,6);
+    this.content[3][5].value = 4;
+    this.content[3][5].posy = 5;
+    this.content[3][5].fall();
+    this.content[4][5] = new brique(4,6);
+    this.content[4][5].value = 4;
+    this.content[4][5].posy = 5;
+    this.content[4][5].fall();
+    this.content[5][5] = new brique(5,6);
+    this.content[5][5].value = 3;
+    this.content[5][5].posy = 5;
+    this.content[5][5].fall();
+    this.content[1][4] = new brique(1,6);
+    this.content[1][4].value = 3;
+    this.content[1][4].posy = 4;
+    this.content[1][4].fall();
+    this.content[2][4] = new brique(2,6);
+    this.content[2][4].value = 3;
+    this.content[2][4].posy = 4;
+    this.content[2][4].fall();
+    this.content[5][4] = new brique(5,6);
+    this.content[5][4].value = 3;
+    this.content[5][4].posy = 4;
+    this.content[5][4].fall();
+ }
 
   this.calculate = function()
   {
@@ -170,7 +208,7 @@ function Grid(sz) {
       grille.evolve(l);
       // generation nouvelles briques
       lo = max(this.n - 6, 1);
-      hi = this.n - 2; 
+      hi = this.n - 4; 
       var nw = floor(random(lo, hi));
       var i = 0;
       while (i < nw)

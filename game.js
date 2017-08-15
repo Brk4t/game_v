@@ -7,11 +7,12 @@ var sz = 6;
 function setup() {
   createCanvas(840, 1000);
 
+  affichage = new EndGame();
+
   grille = new Grid(sz);
   grille.init();
 
 
-  affichage = new EndGame();
 }
 
 

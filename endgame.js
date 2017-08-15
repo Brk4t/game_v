@@ -58,7 +58,7 @@ function EndGame()
       }
     } else if (this.state == 2) // LOSE 
     {
-      fill(255, 0, 0, 220); // BIG BOX BEHIND
+      fill(255, 0, 0, 100); // BIG BOX BEHIND
       rect(120, 200, 600, 600);
 
       noStroke();
