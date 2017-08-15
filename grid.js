@@ -193,7 +193,7 @@ function Grid(sz,tab) {
       grille.evolve(l);
       // generation nouvelles briques
       lo = max(this.n - 6, 1);
-      hi = this.n - 4; 
+      hi = this.n - 2; 
       var nw = floor(random(lo, hi));
       var i = 0;
       while (i < nw)
