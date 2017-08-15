@@ -1,5 +1,7 @@
 // GAME VERSION 1.0
 
+var affichage;
+
 function setup() {
   createCanvas(840, 1000);
 
@@ -20,11 +22,15 @@ function setup() {
     grille.brique_appear();
     i++
   }
+
+  affichage = new EndGame();
 }
 function draw() {
   background((10, 10, 40));
   grille.calculate();
   grille.display();
+  affichage.show();
+    console.log(affichage.state);
   grille.mouseover();
 }
 
@@ -235,6 +241,10 @@ function Grid(sz) {
     {
       k.value +=1; //increase value of the clicked tile
     }
+    if (k.value == this.n+1)
+    {
+        affichage.gagner();
+    }
     l.splice(0, 1); // getting rid of the clicked tile
 
     j=1;
@@ -354,4 +364,34 @@ function brique(r, n) {
 function mouseClicked() 
 {
   grille.click();
+}
+
+function EndGame()
+{
+    /* 0 = partie en cours
+       1 = gagné
+       2 = perdu
+    */
+    this.state = 0;
+    
+    this.gagner = function() {
+        this.state = 1;
+    }
+    this.perdre = function() {
+        this.state = 2;
+    }
+    this.show = function() {
+        if (this.state == 1)
+        {
+            noStroke();
+            fill(255);
+            textSize(100);
+            text("Gagné",width/2,height/2-100);
+        } else if (this.state == 2) {
+            noStroke();
+            fill(255);
+            textSize(100);
+            text("Perdu",width/2,height/2-100);
+        }
+    }
 }
