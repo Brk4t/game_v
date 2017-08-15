@@ -59,7 +59,7 @@ function Grid(sz) {
         }
       }
       if (flag) {
-         break;
+        break;
       }
     }
     // fin parcours de boucle
@@ -251,38 +251,41 @@ function Grid(sz) {
 
   this.mouseover = function()
   {
-    var flag = false;
-    for (var j =0; j<this.n; j++)
+    if (affichage.state ==0)
     {
-      for (var i=0; i<this.n; i++)
+      var flag = false;
+      for (var j =0; j<this.n; j++)
       {
-        if (grille.content[i][j] != null)
+        for (var i=0; i<this.n; i++)
         {
-          brk = grille.content[i][j];
-          if (mouseX > brk.x && mouseY > brk.y && mouseX <brk.x+brk.size && mouseY < brk.y + brk.size)
+          if (grille.content[i][j] != null)
           {
-            var l = grille.colles(brk);
-            if (l.length >= brk.value) // possibilité de casser
+            brk = grille.content[i][j];
+            if (mouseX > brk.x && mouseY > brk.y && mouseX <brk.x+brk.size && mouseY < brk.y + brk.size)
             {
-              flag = true;
-              to_hover = l;
+              var l = grille.colles(brk);
+              if (l.length >= brk.value) // possibilité de casser
+              {
+                flag = true;
+                to_hover = l;
+              }
             }
           }
         }
-      }
-    } // fin parcours de boucle
+      } // fin parcours de boucle
 
-    if (flag)
-    {
-      var k = 0;
-      while (to_hover.length > 0 && k <to_hover[0].value)
+      if (flag)
       {
-        brk = to_hover[0];
-        to_hover.splice(0, 1);
-        brk.display_over();
-        k++;
+        var k = 0;
+        while (to_hover.length > 0 && k <to_hover[0].value)
+        {
+          brk = to_hover[0];
+          to_hover.splice(0, 1);
+          brk.display_over();
+          k++;
+        }
+        flag = false;
       }
-      flag = false;
-    }
+    }//fin if state partie en cours
   }//fin mouseover
 } //fin grid
