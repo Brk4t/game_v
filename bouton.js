@@ -53,4 +53,10 @@ function bouton()
       fct();
     }
   }
+  
+  this.mouseon = function()
+  {
+    return (mouseX > this.x1 && mouseY > this.y1 && mouseX <this.x2  && mouseY < this.y2);
+  }
+  
 }

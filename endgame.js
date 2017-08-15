@@ -7,12 +7,49 @@ function EndGame()
    4 = modes
    5 = classement
    */
-  this.state = -1; // 0 pour partie en cours
+  this.state = 2; // 0 pour partie en cours
 
-  //Boutons
+  //Boutons menu
   this.classement = new bouton();
   this.partie_rapide = new bouton();
   this.modes = new bouton();
+
+  //Boutons gagne
+  this.continuer = new bouton();
+
+  //Boutons perdu
+  this.menu = new bouton();
+  this.restart = new bouton();
+
+  this.init = function()
+  {
+    this.continuer.x1 = 220;
+    this.continuer.y1 = 540;
+    this.continuer.x2 = 640;
+    this.continuer.y2 = 600;
+    this.continuer.text ="Continuer à jouer";
+    this.continuer.txt_size = 30;
+    this.continuer.col_over =color(0, 200, 0);
+    this.continuer.col = color(0, 150, 0);
+
+    this.restart.x1 = 220;
+    this.restart.y1 = 540;
+    this.restart.x2 = 640;
+    this.restart.y2 = 600;
+    this.restart.text = "Nouvelle partie";
+    this.restart.txt_size = 30;
+    this.restart.col_over = color(200, 0, 0);
+    this.restart.col = color(150, 0, 0);
+
+    this.menu.x1 = 220;
+    this.menu.y1 = 640;
+    this.menu.x2 = 640;
+    this.menu.y2 = 700;
+    this.menu.text = "Menu";
+    this.menu.txt_size = 30;
+    this.menu.col_over = color(200, 0, 0);
+    this.menu.col = color(150, 0, 0);
+  }
 
 
 
@@ -42,27 +79,8 @@ function EndGame()
       textSize(100);
       text("Gagné", width/2, height/2-100);
 
-      if (mouseX > 220 && mouseY > 540 && mouseX <220+420 && mouseY < 540+60)
-      {        
-        // DRAW BUTTON
-        fill(color(0, 200, 0, 0.1));
-        rect(220, 540, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Continuer à jouer", width/2, 580);
-      } else
-      {
-        //DRAW BUTTON
-        fill(color(0, 150, 0));
-        rect(220, 540, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Continuer à jouer", width/2, 580);
-      }
+      this.continuer.display();
+      
     } else if (this.state == 2) // LOSE 
     {
       fill(255, 0, 0, 220); // BIG BOX BEHIND
@@ -73,49 +91,9 @@ function EndGame()
       textSize(100);
       text("Perdu", width/2, height/2-100);
 
-      if (mouseX > 220 && mouseY > 540 && mouseX <220+420 && mouseY < 540+60) // BOUTON NOUVELLE PARTIE
-      {        
-        // DRAW BUTTON
-        fill(color(200, 0, 0));
-        rect(220, 540, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Nouvelle partie", width/2, 580);
-      } else
-      {
-        //DRAW BUTTON
-        fill(color(150, 0, 0));
-        rect(220, 540, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Nouvelle partie", width/2, 580);
-      }
-
-      if (mouseX > 220 && mouseY > 640 && mouseX <220+420 && mouseY < 640+60) // BOUTON MENU
-      {        
-        // DRAW BUTTON
-        fill(color(200, 0, 0));
-        rect(220, 640, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Menu", width/2, 680);
-      } else
-      {
-        //DRAW BUTTON
-        fill(color(150, 0, 0));
-        rect(220, 640, 420, 60);
-
-        //DRAW WRITING
-        textSize(30);
-        fill(0);
-        text("Menu", width/2, 680);
-      }
+      this.restart.display();
+      this.menu.display();
+      
     }
 
     if (this.state == 4)
@@ -133,7 +111,7 @@ function EndGame()
 
   this.click_gagne = function()
   {
-    if (mouseX > 220 && mouseY > 540 && mouseX <220+420 && mouseY < 540+60)
+    if (this.continuer.mouseon())
     {
       affichage.state =0;
     }
@@ -141,13 +119,13 @@ function EndGame()
 
   this.click_perdre = function()
   {       
-    if (mouseX > 220 && mouseY > 540 && mouseX <220+420 && mouseY < 540+60) // BOUTON REPLAY
+    if (this.restart.mouseon()) // BOUTON REPLAY
     {
       grille = new Grid(sz);
       grille.init();
       affichage.state =0;
     }
-    if (mouseX > 220 && mouseY > 640 && mouseX <220+420 && mouseY < 640+60) // BOUTON MENU
+    if (this.menu.mouseon()) // BOUTON MENU
     {
       affichage.state =-1; // MENU
     }

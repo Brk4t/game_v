@@ -12,6 +12,7 @@ function setup() {
 
 
   affichage = new EndGame();
+  affichage.init();
 }
 
 
