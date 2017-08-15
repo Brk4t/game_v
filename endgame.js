@@ -141,7 +141,7 @@ function EndGame()
     console.log("click perdre state="+this.state);
     if (this.restart.mouseon()) // BOUTON REPLAY
     {
-      grille = new Grid(sz);
+      grille = new Grid(sz,table_init);
       grille.init();
       this.state =0;
     }
