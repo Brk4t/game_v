@@ -40,15 +40,16 @@ function Grid(sz,tab) {
   }
 
   this.load = function() {
-    for (var i=0; i<this.n; i++)
+    for (var i=this.n-1; i>=0; i--)
     {
-        for (var j=this.n-1; j>=0; j--)
+        for (var j=0; j<this.n; j++)
         {
             if (this.initial_grid.get(i,j) != "x")
             {
                 this.content[j][i] = new brique(j,this.n);
                 this.content[j][i].value = parseInt(this.initial_grid.get(i,j));
                 this.content[j][i].posy = i;
+                this.content[j][i].y = -this.content[j][i].size*(this.n+1-i);
                 this.content[j][i].fall();
             } else {
                 this.content[j][i] = null;
