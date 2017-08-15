@@ -329,7 +329,16 @@ function brique(r, n) {
   this.vy = 0;
   this.ay = 0;
   this.value = 0;
-  this.col = [color(200, 100, 0), color(0, 100, 0), color(200, 0, 200), color(100, 100, 100), color(255, 50, 50), color(50, 100, 10), color(10, 0, 200), color(200, 50, 50), color(50, 50, 200), color(20, 50, 150) ];
+  this.col = [color('#3AAACF'),
+  color('#FFB440'),
+  color('#FF6400'),
+  color('#024E68'),
+  color('#FF6400'), 
+  color('#FFC873'), 
+  color('#06799F'),
+  color('#A64100'),
+  color('#BF8730'),
+  color(20, 50, 150) ];
   this.can_evolve = true;
 
 
@@ -347,7 +356,7 @@ function brique(r, n) {
 
   this.display_over = function() 
   {
-    fill(this.col[this.value], 100);
+    fill(this.col[this.value-2], 100);
     strokeWeight(4);
     stroke(0);
     rect(this.x, this.y, this.size, this.size);
@@ -361,7 +370,7 @@ function brique(r, n) {
   this.display = function() 
   {
     stroke(255);
-    fill(this.col[this.value]);
+    fill(this.col[this.value-2]);
     rect(this.x, this.y, this.size, this.size);
     fill(0, 0, 0);
     stroke(0);
