@@ -18,6 +18,8 @@ function setup() {
   grille = new Grid(sz,table_init);
   grille.init();
 
+  affichage = new EndGame();
+  affichage.init();
 }
 
 
