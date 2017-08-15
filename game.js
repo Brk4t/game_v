@@ -1,6 +1,11 @@
 // GAME VERSION 1.0
 
 var affichage;
+var img;
+function preload() {
+  tile_2 = loadImage("img/tile_2.png");
+  tile_2_over= loadImage("img/tile_2_over.png");
+}
 
 function setup() {
   createCanvas(840, 1000);
@@ -205,15 +210,15 @@ function Grid(sz) {
     {
       append(lst, this.content[brk.posx][brk.posy-1])
     }
-    //bas
-    if (brk.posy != this.n -1 && this.content[brk.posx][brk.posy+1] != null && this.content[brk.posx][brk.posy+1].value == brk.value)
-    {
-      append(lst, this.content[brk.posx][brk.posy+1])
-    }
     //droite
     if (brk.posx != this.n-1 && this.content[brk.posx+1][brk.posy] != null && this.content[brk.posx+1][brk.posy].value == brk.value)
     {
       append(lst, this.content[brk.posx+1][brk.posy]);
+    }
+    //bas
+    if (brk.posy != this.n -1 && this.content[brk.posx][brk.posy+1] != null && this.content[brk.posx][brk.posy+1].value == brk.value)
+    {
+      append(lst, this.content[brk.posx][brk.posy+1])
     }
     //gauche
     if (brk.posx != 0 && this.content[brk.posx-1][brk.posy] != null && this.content[brk.posx-1][brk.posy].value == brk.value)
@@ -329,16 +334,16 @@ function brique(r, n) {
   this.vy = 0;
   this.ay = 0;
   this.value = 0;
-  this.col = [color('#3AAACF'),
-  color('#FFB440'),
-  color('#FF6400'),
-  color('#024E68'),
-  color('#FF6400'), 
-  color('#FFC873'), 
-  color('#06799F'),
-  color('#A64100'),
-  color('#BF8730'),
-  color(20, 50, 150) ];
+  this.col = [color('#3AAACF'), 
+    color('#FFB440'), 
+    color('#FF6400'), 
+    color('#024E68'), 
+    color('#FFE400'), 
+    color('#FFC873'), 
+    color('#06799F'), 
+    color('#A64100'), 
+    color('#BF8730'), 
+    color(20, 50, 150) ];
   this.can_evolve = true;
 
 
@@ -356,6 +361,10 @@ function brique(r, n) {
 
   this.display_over = function() 
   {
+        if (this.value == 2)
+    {
+      image(tile_2_over, this.x, this.y, tile_2_over.width*this.size/tile_2_over.width, tile_2_over.height*this.size/tile_2_over.height)
+    } else {
     fill(this.col[this.value-2], 100);
     strokeWeight(4);
     stroke(0);
@@ -364,18 +373,24 @@ function brique(r, n) {
     textSize(80*7/this.n);
     strokeWeight(1);
     text(this.value, this.x+ this.size/2, this.y + 3*this.size/4);
+    }
   }
 
 
   this.display = function() 
   {
     stroke(255);
-    fill(this.col[this.value-2]);
-    rect(this.x, this.y, this.size, this.size);
-    fill(0, 0, 0);
-    stroke(0);
-    textSize(80*7/this.n);
-    text(this.value, this.x+ this.size/2, this.y+3*this.size/4);
+    if (this.value == 2)
+    {
+      image(tile_2, this.x, this.y, tile_2.width*this.size/tile_2.width, tile_2.height*this.size/tile_2.height)
+    } else {
+      fill(this.col[this.value-2]);
+      rect(this.x, this.y, this.size, this.size);
+      fill(0, 0, 0);
+      stroke(0);
+      textSize(80*7/this.n);
+      text(this.value, this.x+ this.size/2, this.y+3*this.size/4);
+    }
   }
 
 
