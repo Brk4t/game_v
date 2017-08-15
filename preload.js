@@ -24,4 +24,8 @@ function preload() {
   tile_over[11] = loadImage("img/tile_11_over.png");
   
   bckgrnd = loadImage("img/background.gif");
+
+    
+  console.log("Loading "+file+"...");
+  table_init = loadTable(file);
 }

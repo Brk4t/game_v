@@ -1,5 +1,5 @@
 
-function Grid(sz) {
+function Grid(sz,tab) {
   this.n = sz;
   this.cell_w = floor(width/this.n);
   this.cell_h = floor(width/this.n);
@@ -9,6 +9,7 @@ function Grid(sz) {
   this.id = 0;
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
+  this.initial_grid = tab;
 
   this.init = function() {
     for (var i =0; i<this.n+2; i++)
@@ -16,7 +17,7 @@ function Grid(sz) {
       this.x_to_pix[i] = floor(this.cell_w*i);
       this.y_to_pix[i] = floor(this.cell_h*i);
     }
-    /*
+    
     var i = 0;
     while ( i< sz)
     {
@@ -30,45 +31,26 @@ function Grid(sz) {
     {
       this.brique_appear();
       i++
-    }*/
-    this.load("init_grid.tsv");
+    }
+    this.load();
   }
 
-  this.load = function(file) {
-    var table = loadTable(file,"tsv");
-    
-    this.content[1][5] = new brique(1,6);
-    this.content[1][5].value = 4;
-    this.content[1][5].posy = 5;
-    this.content[1][5].fall();
-    this.content[2][5] = new brique(2,6);
-    this.content[2][5].value = 4;
-    this.content[2][5].posy = 5;
-    this.content[2][5].fall();
-    this.content[3][5] = new brique(3,6);
-    this.content[3][5].value = 4;
-    this.content[3][5].posy = 5;
-    this.content[3][5].fall();
-    this.content[4][5] = new brique(4,6);
-    this.content[4][5].value = 4;
-    this.content[4][5].posy = 5;
-    this.content[4][5].fall();
-    this.content[5][5] = new brique(5,6);
-    this.content[5][5].value = 3;
-    this.content[5][5].posy = 5;
-    this.content[5][5].fall();
-    this.content[1][4] = new brique(1,6);
-    this.content[1][4].value = 3;
-    this.content[1][4].posy = 4;
-    this.content[1][4].fall();
-    this.content[2][4] = new brique(2,6);
-    this.content[2][4].value = 3;
-    this.content[2][4].posy = 4;
-    this.content[2][4].fall();
-    this.content[5][4] = new brique(5,6);
-    this.content[5][4].value = 3;
-    this.content[5][4].posy = 4;
-    this.content[5][4].fall();
+  this.load = function() {
+    for (var i=0; i<this.n; i++)
+    {
+        for (var j=this.n-1; j>=0; j--)
+        {
+            if (this.initial_grid.get(i,j) != "x")
+            {
+                this.content[j][i] = new brique(j,this.n);
+                this.content[j][i].value = this.initial_grid.get(i,j);
+                this.content[j][i].posy = i;
+                this.content[j][i].fall();
+            } else {
+                this.content[j][i] = null;
+            }
+        }
+    }
  }
 
   this.calculate = function()

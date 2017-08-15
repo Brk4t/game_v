@@ -163,7 +163,7 @@ function EndGame()
 
   this.click_partie_rapide = function()
   {
-    grille = new Grid(sz);
+    grille = new Grid(sz,table_init);
     grille.init();
     affichage.state = 0;
   }
