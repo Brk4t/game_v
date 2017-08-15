@@ -354,7 +354,7 @@ function brique(r, n) {
     fill(0, 0, 0);
     textSize(80*7/this.n);
     strokeWeight(1);
-    text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n));
+    text(this.value, this.x+ this.size/2, this.y + 3*this.size/4);
   }
 
 
@@ -366,7 +366,7 @@ function brique(r, n) {
     fill(0, 0, 0);
     stroke(0);
     textSize(80*7/this.n);
-    text(this.value, this.x+ floor(40*7/this.n), this.y + floor(90*7/this.n));
+    text(this.value, this.x+ this.size/2, this.y+3*this.size/4);
   }
 
 
