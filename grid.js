@@ -138,7 +138,7 @@ function Grid(sz,tab) {
     fill(255, 255, 255);
     textAlign(CENTER);
     textSize(36);
-    text("Score : " + this.score, 420, 950);
+    text("Score : " + this.score, width/2, 9*height/10);
   }
 
   this.brique_appear = function()

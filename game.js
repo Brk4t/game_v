@@ -1,26 +1,30 @@
 // GAME VERSION 1.0
+var w = screen.width;
+var h = screen.height;
 
 var affichage;
 var img;
 var sz = 6;
 
-var table_init;
+var table_init = 0;
 var file = "init_grid.csv";
 
 
 function setup() {
-  var canvas = createCanvas(840, 1000);
+  var canvas = createCanvas(min(w,840), h-5);
+  print(w);
+  print(width);
+  print(h);
+  print(height);
   canvas.parent('container_game');  
-
+  
   affichage = new EndGame();
-
-  console.log(table_init.getRowCount()+" rows.");
-  console.log(table_init.getColumnCount()+" columns.");
+  affichage.init();
+  
   grille = new Grid(sz,table_init);
   grille.init();
 
-  affichage = new EndGame();
-  affichage.init();
+
 }
 
 

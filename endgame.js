@@ -24,7 +24,7 @@ function EndGame()
 
   this.init = function()
   {
-    this.continuer.x1 = 220;
+    this.continuer.x1 = floor(width/2)-floor(width/3);
     this.continuer.y1 = 540;
     this.continuer.x2 = 640;
     this.continuer.y2 = 600;
@@ -33,7 +33,7 @@ function EndGame()
     this.continuer.col_over =color(0, 200, 0);
     this.continuer.col = color(0, 150, 0);
 
-    this.restart.x1 = 220;
+    this.restart.x1 = floor(width/2)-floor(width/3);
     this.restart.y1 = 540;
     this.restart.x2 = 640;
     this.restart.y2 = 600;
@@ -42,32 +42,41 @@ function EndGame()
     this.restart.col_over = color(200, 0, 0);
     this.restart.col = color(150, 0, 0);
 
-    this.menu.x1 = 220;
-    this.menu.y1 = 640;
-    this.menu.x2 = 640;
+    this.menu.x1 = floor(width/2)-floor(width/3);
+    this.menu.y1 = 600;
+    this.menu.x2 = floor(width/2)+floor(width/3);
     this.menu.y2 = 700;
     this.menu.text = "Menu";
     this.menu.txt_size = 30;
     this.menu.col_over = color(200, 0, 0);
     this.menu.col = color(150, 0, 0);
 
-    this.partie_rapide.x1 = 220;
-    this.partie_rapide.y1 = 300;
-    this.partie_rapide.x2 = 640;
-    this.partie_rapide.y2 = 400;
+    this.partie_rapide.x1 = floor(width/2)-floor(width/3);
+    this.partie_rapide.y1 = floor(2/5*height)-floor(height/15);
+    this.partie_rapide.x2 = floor(width/2)+floor(width/3);
+    this.partie_rapide.y2 = floor(2/5*height)+floor(height/15);
     this.partie_rapide.text = "Partie Rapide";
-
-    this.modes.x1 = 220;
-    this.modes.y1 = 500;
-    this.modes.x2 = 640;
-    this.modes.y2 = 600;
+	this.partie_rapide.img_bool = true;
+	this.partie_rapide.img = partie_rapide;
+	this.partie_rapide.img_over = partie_rapide_over;
+	
+    this.modes.x1 = floor(width/2)-floor(width/3);
+    this.modes.y1 = floor(3/5*height)-floor(height/15);
+    this.modes.x2 = floor(width/2)+floor(width/3);
+    this.modes.y2 = floor(3/5*height)+floor(height/15);
     this.modes.text = "Modes";
-
-    this.classement.x1 = 220;
-    this.classement.y1 = 700;
-    this.classement.x2 = 640;
-    this.classement.y2 = 800;
+	this.modes.img_bool = true;
+	this.modes.img = modes;
+	this.modes.img_over = modes_over;
+	
+    this.classement.x1 = floor(width/2)-floor(width/3);
+    this.classement.y1 = floor(4/5*height)-floor(height/15);
+    this.classement.x2 = floor(width/2)+floor(width/3);
+    this.classement.y2 = floor(4/5*height)+floor(height/15);
     this.classement.text = "Classement";
+	this.classement.img_bool = true;
+	this.classement.img = classement;
+	this.classement.img_over = classement_over;
   }
 
 
@@ -84,7 +93,6 @@ function EndGame()
   }
 
   this.show = function() {
-    print(this.state);
     if(this.state == 6)
     {
       this.display_menu();
@@ -147,7 +155,6 @@ function EndGame()
     }
     if(this.menu.mouseon()) // BOUTON MENU
     {
-      print("ok");
       this.state =6; // MENU
     }
     console.log("click perdre state="+this.state);
@@ -187,9 +194,8 @@ function EndGame()
 
   this.display_menu = function()
   {
-    background((10, 10, 40));
+    background(color(10, 10, 40));
 
-    print("display menu");
     this.partie_rapide.display();
     this.modes.display();
     this.classement.display();

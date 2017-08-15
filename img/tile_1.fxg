@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="100" viewWidth="100" ai:appVersion="16.0.2.682" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:layerType="page" d:pageHeight="100" d:pageWidth="100" d:type="layer" d:userLabel="Artboard 1">
+    <Group d:type="layer" d:userLabel="Layer 1">
+      <Rect width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="1">
+        <fill>
+          <SolidColor color="#F7C910"/>
+        </fill>
+      </Rect>
+      <RichText x="33.3745" y="24.5703" columnCount="1" textAlign="left" tabStops="S36" fontFamily="Century Gothic" fontSize="60" kerning="on" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="2">
+        <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">2</span></p></content>
+      </RichText>
+      <Path x="-9.94573" y="-5.54297" alpha="0.3" winding="nonZero" ai:seqID="3" data="M101.613 2.87646C101.613 2.87646 23.8759 93.9365 7.94573 96.21 -7.98445 98.4854 4.96282 0 4.96282 0">
+        <fill>
+          <LinearGradient x="50.8066" y="85.7959" scaleX="75.7068" rotation="270">
+            <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+            <GradientEntry ratio="1" color="#FFFFFF"/>
+          </LinearGradient>
+        </fill>
+      </Path>
+      <Ellipse x="10" y="10" width="80" height="80" ai:seqID="4">
+        <fill>
+          <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+            <GradientEntry ratio="0" color="#FFFFFF"/>
+            <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+          </RadialGradient>
+        </fill>
+      </Ellipse>
+    </Group>
+  </Group>
+  <Private>
+      <d:FontMap>
+        <d:Map fontFamily="Century Gothic" fontStyle="normal" fontWeight="normal" postScriptName="CenturyGothic"/>
+      </d:FontMap>
+    </Private>
+  </Graphic>
