@@ -32,7 +32,7 @@ function Grid(sz,tab) {
       this.brique_appear();
       i++
     }
-    this.load();
+   // this.load();
   }
 
   this.load = function() {
@@ -43,7 +43,7 @@ function Grid(sz,tab) {
             if (this.initial_grid.get(i,j) != "x")
             {
                 this.content[j][i] = new brique(j,this.n);
-                this.content[j][i].value = this.initial_grid.get(i,j);
+                this.content[j][i].value =parseInt(this.initial_grid.get(i,j));
                 this.content[j][i].posy = i;
                 this.content[j][i].fall();
             } else {
@@ -61,7 +61,7 @@ function Grid(sz,tab) {
       {
         if (this.content[i][j] != null)
         {
-          this.content[i][j].move();
+          
           k=j;
           while (k < this.n-1 && this.content[i][k+1] == null ) //on calcule la position de la brique si elle peut tomber
           {
@@ -125,6 +125,7 @@ function Grid(sz,tab) {
       {
         if (this.content[i][j] != null)
         {
+          this.content[i][j].move();
           this.content[i][j].display(); // on affiche la brique
         }
       }

@@ -78,17 +78,19 @@ function EndGame()
       this.state = 1;
     }
   }
+  
   this.perdre = function() {
     this.state = 2;
   }
 
   this.show = function() {
-    if (this.state == 6)
+    print(this.state);
+    if(this.state == 6)
     {
       this.display_menu();
     }
 
-    if (this.state == 1) // WIN
+    if(this.state == 1) // WIN
     {
       fill(0, 255, 0, 220); // BIG BOX BEHIND
       rect(120, 200, 600, 500);
@@ -142,8 +144,9 @@ function EndGame()
       grille.init();
       this.state =0;
     }
-    if (this.menu.mouseon()) // BOUTON MENU
+    if(this.menu.mouseon()) // BOUTON MENU
     {
+      print("ok");
       this.state =6; // MENU
     }
   }
