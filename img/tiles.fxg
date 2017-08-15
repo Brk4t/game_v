@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="200" viewWidth="1000" ai:appVersion="16.0.2.682" ATE:version="1.0.0" flm:version="1.0.0" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:ai="http://ns.adobe.com/ai/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:layerType="page" d:pageHeight="200" d:pageWidth="1000" d:type="layer" d:userLabel="Artboard 1">
+    <Group d:type="layer" d:userLabel="Layer 1">
+      <Group x="-8.09521" y="-5.43945" ai:seqID="1">
+        <mask>
+          <Group x="8.09521" y="5.54297" ai:spare="1">
+            <Path winding="nonZero" ai:seqID="2" data="M0.109863 0 100.11 0 100.11 100 0 100 0.109863 0Z">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Path>
+          </Group>
+        </mask>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="3">
+          <fill>
+            <SolidColor color="#F7C910"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5796" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="4">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">2</span></p></content>
+        </RichText>
+        <Path x="3.71933e-005" alpha="0.3" winding="nonZero" ai:seqID="5" data="M99.872 2.87646C99.872 2.87646 23.4668 93.9365 7.80953 96.21 -7.84769 98.4854 4.87789 0 4.87789 0">
+          <fill>
+            <LinearGradient x="49.936" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="-7.60205" y="94.332" ai:seqID="6">
+        <mask>
+          <Group x="7.60205" y="5.77148" ai:spare="1">
+            <Path winding="nonZero" ai:seqID="7" data="M0 0 100.11 0 100.11 99.7715 0 99.8965 0.109863 1.14648">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Path>
+          </Group>
+        </mask>
+        <Rect x="7.71191" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="8">
+          <fill>
+            <SolidColor color="#F7C910"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0864" y="30.1133" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="9">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">2</span></p></content>
+        </RichText>
+        <Path x="-0.000149727" alpha="0.3" winding="nonZero" ai:seqID="10" data="M99.3791 2.87646C99.3791 2.87646 23.3512 93.9365 7.77115 96.21 -7.80893 98.4854 4.85367 0 4.85367 0">
+          <fill>
+            <LinearGradient x="49.6896" y="85.7959" scaleX="75.7068" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.543" width="80" height="80" ai:seqID="11">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Group x="92.0498" y="-5.49072" ai:seqID="12">
+        <mask>
+          <Group x="8.0957" y="5.54297" ai:spare="1">
+            <Path winding="nonZero" ai:seqID="13" data="M0.109375 0 100.109 0 100.109 100 0 100 0.109375 0Z">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Path>
+          </Group>
+        </mask>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="14">
+          <fill>
+            <SolidColor color="#1FCC9A"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5796" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="15">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">3</span></p></content>
+        </RichText>
+        <Path x="3.8147e-005" alpha="0.3" winding="nonZero" ai:seqID="16" data="M99.872 2.87646C99.872 2.87646 23.4668 93.9365 7.80953 96.21 -7.84769 98.4854 4.87789 0 4.87789 0">
+          <fill>
+            <LinearGradient x="49.936" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="92.543" y="94.2808" ai:seqID="17">
+        <mask>
+          <Group x="7.60254" y="5.77197" ai:spare="1">
+            <Path winding="nonZero" ai:seqID="18" data="M0 0 100.109 0 100.109 99.7715 0 99.8965 0.109375 1.14648">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Path>
+          </Group>
+        </mask>
+        <Rect x="7.71191" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="19">
+          <fill>
+            <SolidColor color="#1FCC9A"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0864" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="20" d:userLabel="3">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">3</span></p></content>
+        </RichText>
+        <Path x="0.000183105" alpha="0.3" winding="nonZero" ai:seqID="21" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+          <fill>
+            <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.5435" width="80" height="80" ai:seqID="22">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Path x="200.254" y="100.154" winding="nonZero" ai:seqID="23" data="M0 0 100.109 0 100.109 99.7725 0 99.8975 0.109375 1.14746"/>
+      <Rect x="200.364" y="99.9263" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="24">
+        <fill>
+          <SolidColor color="#F26D00"/>
+        </fill>
+      </Rect>
+      <RichText x="233.738" y="124.497" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="25">
+        <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">4</span></p></content>
+      </RichText>
+      <Path x="192.652" y="94.3833" alpha="0.3" winding="nonZero" ai:seqID="26" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+        <fill>
+          <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+            <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+            <GradientEntry ratio="1" color="#FFFFFF"/>
+          </LinearGradient>
+        </fill>
+      </Path>
+      <Ellipse x="210.364" y="110.013" width="80" height="80" ai:seqID="27">
+        <fill>
+          <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+            <GradientEntry ratio="0" color="#FFFFFF"/>
+            <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+          </RadialGradient>
+        </fill>
+      </Ellipse>
+      <Path x="600.729" y="100.283" winding="nonZero" ai:seqID="28" data="M0 0 100.109 0 100.109 99.7725 0 99.8975 0.109375 1.14746"/>
+      <Rect x="600.838" y="100.055" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="29">
+        <fill>
+          <SolidColor color="#00F9F9"/>
+        </fill>
+      </Rect>
+      <RichText x="634.213" y="124.626" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="30">
+        <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">8</span></p></content>
+      </RichText>
+      <Path x="593.126" y="94.5122" alpha="0.5" winding="nonZero" ai:seqID="31" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+        <fill>
+          <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+            <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+            <GradientEntry ratio="1" color="#FFFFFF"/>
+          </LinearGradient>
+        </fill>
+      </Path>
+      <Ellipse x="610.838" y="110.142" width="80" height="80" ai:seqID="32">
+        <fill>
+          <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+            <GradientEntry ratio="0" color="#FFFFFF"/>
+            <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+          </RadialGradient>
+        </fill>
+      </Ellipse>
+      <Group x="292.269" y="-5.49121" ai:seqID="33">
+        <mask>
+          <Group x="8.33105" y="5.77441" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="34">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.09521" y="5.54297" winding="nonZero" ai:seqID="35" data="M0.109863 0 100.11 0 100.11 100 0 100 0.109863 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="36">
+          <fill>
+            <SolidColor color="#104FFF"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5796" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="37">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">5</span></p></content>
+        </RichText>
+        <Path x="3.05176e-005" alpha="0.3" winding="nonZero" ai:seqID="38" data="M99.872 2.87646C99.872 2.87646 23.4668 93.9365 7.80954 96.21 -7.84769 98.4854 4.8779 0 4.8779 0">
+          <fill>
+            <LinearGradient x="49.936" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="192.159" y="-5.38818" ai:seqID="39">
+        <mask>
+          <Group x="8.14941" y="5.67139" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="40">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.0957" y="5.54297" winding="nonZero" ai:seqID="41" data="M0.109375 0 100.109 0 100.109 100 0 100 0.109375 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="42">
+          <fill>
+            <SolidColor color="#F26D00"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5796" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="43">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">4</span></p></content>
+        </RichText>
+        <Path x="3.05176e-005" alpha="0.3" winding="nonZero" ai:seqID="44" data="M99.872 2.87646C99.872 2.87646 23.4668 93.9365 7.80954 96.21 -7.84769 98.4854 4.8779 0 4.8779 0">
+          <fill>
+            <LinearGradient x="49.936" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="392.414" y="-5.54248" ai:seqID="45">
+        <mask>
+          <Group x="8.18652" y="5.82568" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="46">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.0957" y="5.54297" winding="nonZero" ai:seqID="47" data="M0.109375 0 100.109 0 100.109 99.9995 0 99.9995 0.109375 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="48">
+          <fill>
+            <SolidColor color="#D60000"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5796" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="49">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">6</span></p></content>
+        </RichText>
+        <Path x="3.05176e-005" alpha="0.3" winding="nonZero" ai:seqID="50" data="M99.872 2.87646C99.872 2.87646 23.4668 93.9365 7.80954 96.21 -7.84769 98.4854 4.8779 0 4.8779 0">
+          <fill>
+            <LinearGradient x="49.936" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="492.523" y="-5.54297" ai:seqID="51">
+        <mask>
+          <Group x="8.07764" y="5.82617" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="52">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.09619" y="5.646" winding="nonZero" ai:seqID="53" data="M0.109375 0 100.108 0 100.108 100 0 100 0.109375 0Z"/>
+        <Rect x="8.20557" y="5.646" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="54">
+          <fill>
+            <SolidColor color="#31CC05"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5806" y="30.2168" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="55">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">7</span></p></content>
+        </RichText>
+        <Path x="0.247589" alpha="0.3" winding="nonZero" ai:seqID="56" data="M99.872 2.87646C99.872 2.87646 23.4668 93.937 7.80954 96.2104 -7.84769 98.4858 4.8779 0 4.8779 0">
+          <fill>
+            <LinearGradient x="49.9355" y="85.7969" scaleX="75.7076" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="592.633" y="-5.25928" ai:seqID="57">
+        <mask>
+          <Group x="7.96875" y="5.54248" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="58">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.0957" y="5.54297" winding="nonZero" ai:seqID="59" data="M0.109375 0 100.109 0 100.109 99.9995 0 99.9995 0.109375 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="60">
+          <fill>
+            <SolidColor color="#00F9F9"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5801" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="61">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">8</span></p></content>
+        </RichText>
+        <Path x="6.10352e-005" alpha="0.5" winding="nonZero" ai:seqID="62" data="M99.872 2.87646C99.872 2.87646 23.4667 93.9365 7.80951 96.21 -7.84772 98.4854 4.87787 0 4.87787 0">
+          <fill>
+            <LinearGradient x="49.9355" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="292.762" y="94.2803" ai:seqID="63">
+        <mask>
+          <Group x="7.78369" y="5.95215" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="64">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60205" y="5.77148" winding="nonZero" ai:seqID="65" data="M0 0 100.11 0 100.11 99.7715 0 99.8965 0.109863 1.14648"/>
+        <Rect x="7.71191" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="66">
+          <fill>
+            <SolidColor color="#104FFF"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0864" y="30.1143" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="67">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">5</span></p></content>
+        </RichText>
+        <Path x="-0.000152588" alpha="0.3" winding="nonZero" ai:seqID="68" data="M99.3791 2.87646C99.3791 2.87646 23.3512 93.9365 7.77115 96.21 -7.80893 98.4854 4.85367 0 4.85367 0">
+          <fill>
+            <LinearGradient x="49.6896" y="85.7959" scaleX="75.7068" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.6289" width="80" height="80" ai:seqID="69">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Group x="392.907" y="94.229" ai:seqID="70">
+        <mask>
+          <Group x="7.63916" y="5.54248" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="71">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60254" y="5.771" winding="nonZero" ai:seqID="72" data="M0 0 100.108 0 100.108 99.7725 0 99.8975 0.109375 1.14746"/>
+        <Rect x="7.71191" y="5.54297" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="73">
+          <fill>
+            <SolidColor color="#D60000"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0859" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="74">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">6</span></p></content>
+        </RichText>
+        <Path x="0.000183105" alpha="0.3" winding="nonZero" ai:seqID="75" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+          <fill>
+            <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.6294" width="80" height="80" ai:seqID="76">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Group x="493.017" y="94.3315" ai:seqID="77">
+        <mask>
+          <Group x="7.52979" y="5.43994" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="78">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60205" y="5.771" winding="nonZero" ai:seqID="79" data="M0 0 100.109 0 100.109 99.7725 0 99.8975 0.109375 1.14746"/>
+        <Rect x="7.71143" y="5.54297" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="80">
+          <fill>
+            <SolidColor color="#31CC05"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0864" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="81">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">7</span></p></content>
+        </RichText>
+        <Path x="6.10352e-005" alpha="0.3" winding="nonZero" ai:seqID="82" data="M99.3784 2.87695C99.3784 2.87695 23.351 93.936 7.77094 96.2095 -7.80865 98.4849 4.85345 0 4.85345 0">
+          <fill>
+            <LinearGradient x="49.6889" y="85.7954" scaleX="75.7065" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7114" y="15.6294" width="80" height="80" ai:seqID="83">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Rect x="600.547" y="99.7715" width="100" height="100" ai:seqID="84">
+        <fill>
+          <LinearGradient x="50" y="89.1396" scaleX="78.6572" rotation="270">
+            <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+            <GradientEntry ratio="1" color="#FFFFFF" alpha="0"/>
+          </LinearGradient>
+        </fill>
+      </Rect>
+      <Group x="692.743" y="-5.3623" ai:seqID="85">
+        <mask>
+          <Group x="8.33008" y="5.64551" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="86">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.09473" y="5.54297" winding="nonZero" ai:seqID="87" data="M0.109375 0 100.108 0 100.108 100 0 100 0.109375 0Z"/>
+        <Rect x="8.2041" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="88">
+          <fill>
+            <SolidColor color="#FF00CF"/>
+          </fill>
+        </Rect>
+        <RichText x="41.5791" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="89">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">9</span></p></content>
+        </RichText>
+        <Path x="-0.000366211" alpha="0.3" winding="nonZero" ai:seqID="90" data="M99.8724 2.87646C99.8724 2.87646 23.4662 93.9365 7.80994 96.21 -7.84827 98.4854 4.8783 0 4.8783 0">
+          <fill>
+            <LinearGradient x="49.9369" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="792.888" y="-5.41357" ai:seqID="91">
+        <mask>
+          <Group x="8.18652" y="5.69678" ai:spare="1">
+            <Rect width="100.001" height="100" ai:seqID="92">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.0957" y="5.54297" winding="nonZero" ai:seqID="93" data="M0.109375 0 100.109 0 100.109 100 0 100 0.109375 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="94">
+          <fill>
+            <SolidColor/>
+          </fill>
+        </Rect>
+        <RichText x="23.8604" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" color="#F4EDD3" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="95">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">10</span></p></content>
+        </RichText>
+        <Path x="-0.000427246" y="0.154297" alpha="0.3" winding="nonZero" ai:seqID="96" data="M99.8725 2.87646C99.8725 2.87646 23.4662 93.936 7.81 96.2095 -7.84821 98.4849 4.87836 0 4.87836 0">
+          <fill>
+            <LinearGradient x="49.937" y="85.7959" scaleX="75.7068" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="892.997" y="-5.31104" ai:seqID="97">
+        <mask>
+          <Group x="8.07813" y="5.59424" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="98">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="8.0957" y="5.54297" winding="nonZero" ai:seqID="99" data="M0.109375 0 100.109 0 100.109 100 0 100 0.109375 0Z"/>
+        <Rect x="8.20508" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="100">
+          <fill>
+            <SolidColor color="#592D09"/>
+          </fill>
+        </Rect>
+        <RichText x="23.751" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="101">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">11</span></p></content>
+        </RichText>
+        <Path x="6.10352e-005" alpha="0.3" winding="nonZero" ai:seqID="102" data="M99.872 2.87646C99.872 2.87646 23.4667 93.9365 7.80951 96.21 -7.84772 98.4854 4.87787 0 4.87787 0">
+          <fill>
+            <LinearGradient x="49.9365" y="85.7964" scaleX="75.7072" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+      </Group>
+      <Group x="693.236" y="94.4092" ai:seqID="103">
+        <mask>
+          <Group x="8.40332" y="5.3623" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="104">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60156" y="5.77148" winding="nonZero" ai:seqID="105" data="M0 0 100.108 0 100.108 99.7715 0 99.8965 0.109375 1.14648"/>
+        <Rect x="7.71094" y="5.54297" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="106">
+          <fill>
+            <SolidColor color="#FF00CF"/>
+          </fill>
+        </Rect>
+        <RichText x="41.0859" y="30.1143" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="107">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">9</span></p></content>
+        </RichText>
+        <Path x="-0.000488281" alpha="0.3" winding="nonZero" ai:seqID="108" data="M99.3794 2.87646C99.3794 2.87646 23.3511 93.9365 7.771 96.21 -7.80908 98.4854 4.854 0 4.854 0">
+          <fill>
+            <LinearGradient x="49.6899" y="85.7959" scaleX="75.7068" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7109" y="15.6289" width="80" height="80" ai:seqID="109">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Group x="793.381" y="94.3579" ai:seqID="110">
+        <mask>
+          <Group x="8.25977" y="5.41357" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="111">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60254" y="5.771" winding="nonZero" ai:seqID="112" data="M0 0 100.109 0 100.109 99.7725 0 99.8975 0.109375 1.14746"/>
+        <Rect x="7.71191" y="5.54297" width="100" height="99.9995" radiusX="11.9992" radiusY="11.9992" ai:seqID="113">
+          <fill>
+            <SolidColor/>
+          </fill>
+        </Rect>
+        <RichText x="23.3672" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" color="#F4EDD3" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="114">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">10</span></p></content>
+        </RichText>
+        <Path x="0.000183105" alpha="0.3" winding="nonZero" ai:seqID="115" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+          <fill>
+            <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.6294" width="80" height="80" ai:seqID="116">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+      <Group x="893.49" y="94.4604" ai:seqID="117">
+        <mask>
+          <Group x="8.15039" y="5.31104" ai:spare="1">
+            <Rect width="100" height="100" ai:seqID="118">
+              <fill>
+                <SolidColor color="#FFFFFF"/>
+              </fill>
+            </Rect>
+          </Group>
+        </mask>
+        <Path x="7.60254" y="5.771" winding="nonZero" ai:seqID="119" data="M0 0 100.108 0 100.108 99.7725 0 99.8975 0.109375 1.14746"/>
+        <Rect x="7.71191" y="5.54248" width="100" height="100" radiusX="11.9992" radiusY="11.9992" ai:seqID="120">
+          <fill>
+            <SolidColor color="#592D09"/>
+          </fill>
+        </Rect>
+        <RichText x="23.2578" y="30.1138" columnCount="1" textAlign="left" tabStops="S36 " fontFamily="Century Gothic" fontSize="60" kerning="on" lineHeight="72" whiteSpaceCollapse="preserve" ai:aa="2" ai:seqID="121">
+          <content><p fontFamily="Century Gothic"><span fontFamily="Century Gothic">11</span></p></content>
+        </RichText>
+        <Path x="0.000183105" alpha="0.3" winding="nonZero" ai:seqID="122" data="M99.3787 2.87695C99.3787 2.87695 23.3514 93.936 7.7713 96.2095 -7.80878 98.4849 4.85333 0 4.85333 0">
+          <fill>
+            <LinearGradient x="49.6893" y="85.7954" scaleX="75.7065" rotation="270">
+              <GradientEntry ratio="0" color="#FFFFFF" alpha="0.08867"/>
+              <GradientEntry ratio="1" color="#FFFFFF"/>
+            </LinearGradient>
+          </fill>
+        </Path>
+        <Ellipse x="17.7119" y="15.6294" width="80" height="80" ai:seqID="123">
+          <fill>
+            <RadialGradient x="40" y="40" scaleX="80" scaleY="80">
+              <GradientEntry ratio="0" color="#FFFFFF"/>
+              <GradientEntry ratio="1" color="#FFFFFF" alpha="0.08867"/>
+            </RadialGradient>
+          </fill>
+        </Ellipse>
+      </Group>
+    </Group>
+  </Group>
+  <Private>
+      <d:FontMap>
+        <d:Map fontFamily="Century Gothic" fontStyle="normal" fontWeight="normal" postScriptName="CenturyGothic"/>
+      </d:FontMap>
+    </Private>
+  </Graphic>
