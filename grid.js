@@ -32,7 +32,7 @@ function Grid(sz,tab) {
       this.brique_appear();
       i++
     }
-    this.load();
+   // this.load();
   }
 
   this.load = function() {
