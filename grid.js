@@ -104,6 +104,7 @@ function Grid(sz,tab) {
     // fin parcours de boucle
     if (!flag)
     {
+	  this.continuer = 0;
       affichage.perdre();
     }
   }

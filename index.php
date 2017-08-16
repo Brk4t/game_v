@@ -1,7 +1,8 @@
 <html>
   <head>
   <meta charset="UTF-8">
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
   <script language="javascript" type="text/javascript" src="bouton.js"></script>
@@ -9,11 +10,10 @@
   <script language="javascript" type="text/javascript" src="endgame.js"></script>
   <script language="javascript" type="text/javascript" src="grid.js"></script>
   <script language="javascript" type="text/javascript" src="preload.js"></script>
-  <script language="javascript" type="text/javascript" src="script.js"></script>
+  <script language="javascript" type="text/javascript" src="send_receive.js"></script>
   <script language="javascript" type="text/javascript" src="game.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
   <!-- This line removes any default padding and style. 
   You might only need one of these values set. -->
   <style> body {
@@ -27,34 +27,7 @@ margin:
   </head>
 
   <body>
-  <h1>Crazy 7</h1>
   <div id="container_game" style="margin: 0px auto; text-align: center">
-  </div>
-  <form method="post" action="score.php">
-  Username: 
-<input type="text" name="pseudo" /> <input type="submit" value="Submit score" />
-  <input type="hidden" name="score" value="0" id="score_player"/>
-  </form>
-
-  <script>
-  $.ajax( {
-  url: save_score.php, 
-  type: 'GET', 
-  data: 'score=34324&pseudo=Burel', 
-  success: function(code_html, statut) { 
-    //ce qu'on veut faire une fois le score sauvegardé
-  }
-}
-)
-
-</script>
-
-  <p>The rules of this game are simple:
-</p>
-  <ul>
-  <li>Merge two "2" to create a 3.</li>
-  <li>Merge three "3" to create a 4.</li>
-  <li>And so on... until you create a 7 to win the game!</li>
-  </ul>
+  
   </body>
   </html>

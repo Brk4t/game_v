@@ -1,6 +1,10 @@
 // GAME VERSION 1.0
-var w = screen.width;
-var h = screen.height;
+var w = $(window).width();
+var h = $(window).height();
+
+var test1;
+var test2;
+var test3;
 
 var affichage;
 var img;
@@ -9,9 +13,9 @@ var sz = 6;
 var table_init = 0;
 var file = "init_grid.csv";
 
-
 function setup() {
-  var canvas = createCanvas(min(w,750), min(h,1334)-5);
+  //var canvas = createCanvas(min(w,750*2), min(h,1334*2)-5);
+  var canvas = createCanvas(w, h);
   print(w);
   print(width);
   print(h);
@@ -54,5 +58,41 @@ function mouseClicked()
   }else if(affichage.state == 6)
   {
     affichage.click_menu();
-  }
+  }else if(affichage.state == 5)
+	
+	  {
+		  affichage.click_menu2();
+	  }
 }
+
+ function send()
+ {
+  $.ajax( {
+  url: "save_score.php", 
+  type: 'GET', 
+  data: "score="+grille.score +"&pseudo=" + affichage.input.value(), 
+  success: function(code_html, statut) { 
+  affichage.display_submit = false;
+ }
+}
+)
+ }
+ 
+ function charger()
+ {
+	 var to_return =[];
+	 print("ca charge")
+	 $.ajax( {
+		  url: "read_score.php", 
+		  type: 'POST', 
+		  data: "",
+		  dataType: 'json',
+		  success: function(data) {
+			affichage.data_classement = JSON.parse(data);
+  },
+         error : function(resultat, statut, erreur){
+			 print("error")
+
+       }
+})
+ }
