@@ -36,7 +36,8 @@ function preload() {
   modes= loadImage("img/modes.png");
   modes_over= loadImage("img/modes.png");
 
-
   partie_rapide = loadImage("img/partie_rapide.png");
   partie_rapide_over = loadImage("img/partie_rapide_over.png");
+  
+  background_menu = loadImage("img/background_menu.png");
 }

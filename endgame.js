@@ -1,3 +1,9 @@
+function change_input()
+ {
+	 affichage.input.value("");
+ }
+
+
 function EndGame()
 {
   /* 0 = partie en cours
@@ -42,18 +48,18 @@ function EndGame()
     this.continuer.col = color(0, 150, 0);
 
     this.restart.x1 = floor(width/2)-floor(width/3);
-    this.restart.y1 = floor(height*8/16);
+    this.restart.y1 = floor(height*9/16);
     this.restart.x2 = floor(width/2)+floor(width/3);
-    this.restart.y2 = floor(height*8.8/16);
+    this.restart.y2 = floor(height*9.8/16);
     this.restart.text = "Nouvelle partie";
     this.restart.txt_size = 30;
     this.restart.col_over = color(200, 0, 0);
     this.restart.col = color(150, 0, 0);
 
     this.menu.x1 = floor(width/2)-floor(width/3);
-    this.menu.y1 = floor(height*9/16);
+    this.menu.y1 = floor(height*10/16);
     this.menu.x2 = floor(width/2)+floor(width/3);
-    this.menu.y2 = floor(height*10/16);
+    this.menu.y2 = floor(height*11/16);
     this.menu.text = "Menu";
     this.menu.txt_size = 30;
     this.menu.col_over = color(200, 0, 0);
@@ -114,17 +120,25 @@ function EndGame()
     this.classement.img_over = classement_over;
 	
 	this.input = createInput();
-	this.input.position(floor(width/2)-floor(width/3), floor(height*7.5/16));
+	this.input.position(floor(width/2)-floor(width/3), floor(height*6.5/16));
 	this.input.value("Pseudo");
+	this.input.style("width", floor(2*width/3)+"px");
+	this.input.style("height", floor(height/16)+"px");
+	this.input.style("font-size", floor(height/28)+"px");
+	this.input.touchStarted(change_input);
 	this.input.hide();
+
 	
-	this.b = createButton('submit');
-	this.b.position(this.input.x + this.input.width, this.input.y);
+	
+	this.b = createButton('Envoyer');
+	this.b.position(floor(width/4), this.input.y+this.input.height + 10);
+	this.b.style("width", floor(width/2)+"px");
+	this.b.style("height", floor(height/16)+"px");
+	this.b.style("font-size", floor(height/28)+"px");
 	this.b.mousePressed(send);
 	this.b.hide();
   }
-
-
+	
 
   this.gagner = function() {
     if (this.state == 0)
@@ -138,11 +152,15 @@ function EndGame()
 	this.display_submit = true;
   }
 
+
+  
+  
   this.show = function() {
     if (this.state == 6)
     {
+
 		flag = 0;
-      this.display_menu();
+		this.display_menu();
     }
 
     if (this.state == 1) // WIN
@@ -160,14 +178,14 @@ function EndGame()
 	if (this.state == 2) // LOSE 
     {
       fill(255, 0, 0, 100); // BIG BOX BEHIND
-      rect(width/10, height/6, 8*width/10, 3*height/6);
+      rect(width/10, height/6, 8*width/10, 3.5*height/6);
 
       noStroke();
       fill(255);
       textSize(100);
       text("Perdu", width/2, floor(height*5/16));
 	  if(this.display_submit)
-	  {
+	  { 
 	  this.input.show();
 	  this.b.show();
 	  }else
@@ -306,7 +324,7 @@ function EndGame()
 
   this.display_menu = function()
   {
-    background(color(10, 10, 40));
+	image(background_menu,0,0,width,height);
 
     this.partie_rapide.display();
     this.modes.display();

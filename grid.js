@@ -279,7 +279,7 @@ function Grid(sz,tab) {
     if (k.value == this.n+1)
     {
       affichage.gagner();
-      document.getElementById("score_player").value=this.score;
+      
     }
     l.splice(0, 1); // getting rid of the clicked tile
 

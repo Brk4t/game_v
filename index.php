@@ -10,7 +10,6 @@
   <script language="javascript" type="text/javascript" src="endgame.js"></script>
   <script language="javascript" type="text/javascript" src="grid.js"></script>
   <script language="javascript" type="text/javascript" src="preload.js"></script>
-  <script language="javascript" type="text/javascript" src="send_receive.js"></script>
   <script language="javascript" type="text/javascript" src="game.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
   <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
@@ -27,7 +26,7 @@ margin:
   </head>
 
   <body>
-  <div id="container_game" style="margin: 0px auto; text-align: center">
+  <div id="container_game" style="margin: 0px auto; text-align: center; height: 800px">
   
   </body>
   </html>

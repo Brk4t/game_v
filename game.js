@@ -1,6 +1,6 @@
 // GAME VERSION 1.0
 var w = $(window).width();
-var h = $(window).height();
+var h = $(window).height() == 0 ? window.innerHeight : $(window).height();
 
 var test1;
 var test2;
@@ -96,3 +96,5 @@ function mouseClicked()
        }
 })
  }
+ 
+ 
