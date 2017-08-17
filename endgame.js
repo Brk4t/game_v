@@ -58,7 +58,7 @@ function EndGame()
     this.restart.img_bool = true;
     this.restart.img = nv_partie;
     this.restart.img_over = nv_partie_over;
-    
+
     this.menu.x1 = floor(width/2)-floor(width/4);
     this.menu.y1 = floor(height*11/16);
     this.menu.x2 = floor(width/2)+floor(width/4);
@@ -144,7 +144,7 @@ function EndGame()
     this.input = createInput();
     this.input.position(floor(width/2)-floor(width/3), floor(height*6.5/16));
     this.input.parent("container_game");
-    
+
     this.input.value("Pseudo");
     this.input.style("width", floor(2*width/3)+"px");
     this.input.style("height", floor(height/16)+"px");
@@ -201,9 +201,9 @@ function EndGame()
     }
     if (this.state == 2) // LOSE 
     {
-      image(defaite,2.30*w/35,floor(16.4*h/61),floor(30.5*w/35),floor(30.5*w/35))
-      
-      if (this.display_submit)
+      image(defaite, 2.30*w/35, floor(16.4*h/61), floor(30.5*w/35), floor(30.5*w/35))
+
+        if (this.display_submit)
       { 
         this.input.show();
         this.b.show();
@@ -341,6 +341,15 @@ function EndGame()
     image(background_menu, 0, 0, width, height);
     this.info_menu.display();
     this.parametres_menu.display();
+    if (grille.continuer)
+    {
+      this.partie_rapide.img = continuer;
+      this.partie_rapide.img_over = continuer_over;
+    } else
+    {
+      this.partie_rapide.img = partie_rapide;
+      this.partie_rapide.img_over = partie_rapide_over;
+    }
     this.partie_rapide.display();
     this.modes.display();
     this.classement.display();
