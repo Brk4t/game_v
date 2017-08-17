@@ -10,7 +10,7 @@ function Grid(sz,tab) {
   this.mat = Array(this.n).fill(0).map(x => Array(this.n).fill(0));
   this.score = 0;
   this.initial_grid = tab;
-  this.continuer = false;
+  this.lost = true;
   this.tab_score = Array(11);
   
   this.init = function() {
@@ -113,7 +113,7 @@ function Grid(sz,tab) {
     // fin parcours de boucle
     if (!flag)
     {
-	  this.continuer = 0;
+	  this.lost = true;
       affichage.perdre();
     }
   }

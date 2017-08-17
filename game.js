@@ -88,15 +88,14 @@ function mouseClicked()
 
 function send()
 {
+  str = "score="+encodeURIComponent(grille.score) +"&pseudo=" + encodeURIComponent(affichage.input.value());
+ 
   $.ajax( {
-  url: 
-    "save_score.php", 
-    type: 
-    'GET', 
-    data: 
-    "score="+grille.score +"&pseudo=" + affichage.input.value(), 
+  url: "http://brk4t.fr/save_score.php", 
+  cache:false,
+    data: str, 
     success: 
-    function(code_html, statut) { 
+    function(data) { 
       affichage.display_submit = false;
     }
   }
@@ -107,14 +106,10 @@ function charger()
 {
   var to_return =[];
   $.ajax( {
-  url: 
-    "read_score.php", 
-    type: 
-    'POST', 
-    data: 
-    "", 
-    dataType: 
-    'json', 
+  url: "http://brk4t.fr/read_score.php", 
+    type: 'POST', 
+    data: "", 
+    dataType: 'json', 
     success: 
     function(data) {
       affichage.data_classement = JSON.parse(data);

@@ -17,11 +17,11 @@ function EndGame()
    */
   this.state = 6; // 0 pour partie en cours
   this.display_submit = true;
-
+  this.data_classement = JSON.parse("[{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"},{\"pseudo\":\"Default\",\"score\":\"0\",\"date\":\"2010-01-01\"}]");
+  
   this.init = function()
   {
     this.load_bool = false;
-    this.data_classement = [];
 
     //Boutons menu
     this.classement = new bouton();
@@ -181,7 +181,7 @@ function EndGame()
   this.show = function() {
     if (this.state == 6)
     {
-
+      this.load_bool = false;
       flag = 0;
       this.display_menu();
     }
@@ -201,6 +201,7 @@ function EndGame()
     }
     if (this.state == 2) // LOSE 
     {
+      grille.lost = true;
       image(defaite, 2.30*w/35, floor(16.4*h/61), floor(30.5*w/35), floor(30.5*w/35))
 
         if (this.display_submit)
@@ -233,21 +234,20 @@ function EndGame()
         this.load_bool = true;
         charger();
       }
-
       background(150, 150, 150);
       this.menu2.display();
+      textAlign(CENTER);
       text("CLASSEMENT", width/2, height/6);
       text("Rang", width/6, height/3 - height/15);
       text("Pseudo", 3*width/6, height/3 - height/15);
       text("Score", 5*width/6, height/3 - height/15);
       //text("Date", 5*width/6,height/3 - height/15)
-      for (var i =0; i<this.data_classement.length; i++);
+	  
+      for (i =0; i<this.data_classement.length; i++)
       {
-        row = this.data_classement[i];
-
         text("#" + (i+1), width/6, height*i/15 + height/3);
-        text(row.pseudo, 3*width/6, height*i/15+ height/3);
-        text(row.score, 5*width/6, height*i/15 + height/3);
+        text(this.data_classement[i].pseudo, 3*width/6, height*i/15+ height/3);
+        text(this.data_classement[i].score, 5*width/6, height*i/15 + height/3);
         //text(row.date, 5*width/6,height*i/15+ height/3)
       }
       
@@ -315,19 +315,20 @@ function EndGame()
     this.load_bool = false;
     if (this.menu2.mouseon())
     {
-      grille.continuer = true;
       this.state = 6;
     }
   }
   
   this.click_partie_rapide = function()
   {
-    if (!grille.continuer)
+    
+    if (grille.lost)
     {
       grille = new Grid(sz, table_init);
       grille.init();
     }
     this.state = 0;
+    grille.lost= false;
   }
 
   this.click_modes = function()
@@ -345,7 +346,7 @@ function EndGame()
     image(background_menu, 0, 0, width, height);
     this.info_menu.display();
     this.parametres_menu.display();
-    if (grille.continuer)
+    if (!grille.lost)
     {
       this.partie_rapide.img = continuer;
       this.partie_rapide.img_over = continuer_over;

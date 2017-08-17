@@ -19,7 +19,7 @@ echo $score.'<br />';
 echo $pseudo.'<br />';
 echo $date.'<br />';
 echo '</body>';
-$bdd->exec("INSERT INTO crazy7 VALUES ('".$pseudo."',".$score.",'".$date."')");
+$bdd->exec("INSERT INTO crazy7 (pseudo,score,date) VALUES ('".$pseudo."',".$score.",'".$date."')");
 
 $bdd=null;
 
