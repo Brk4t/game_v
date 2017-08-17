@@ -11,13 +11,22 @@ function Grid(sz,tab) {
   this.score = 0;
   this.initial_grid = tab;
   this.continuer = false;
-
+  this.tab_score = Array(11);
+  
   this.init = function() {
     for (var i =0; i<this.n+2; i++)
     {
       this.x_to_pix[i] = floor(this.cell_w*i);
       this.y_to_pix[i] = floor(this.cell_h*i);
     }
+    
+    this.tab_score[2] = 4;
+    this.tab_score[3] = 27;
+    this.tab_score[4] = 256;
+    this.tab_score[5] = 3125;
+    this.tab_score[6] = 46656;
+    this.tab_score[7] = 823543;
+    this.tab_score[8] = 16777216;
     
     var i = 0;
     while ( i< sz)
@@ -128,12 +137,11 @@ function Grid(sz,tab) {
     
     image(bckgrnd,0,0,width,height);
     //Affiche score:
-    image(score,10*width/35,11*height/61,24.7*height/61-11*height/61,14.5*width/35-11*width/35);
     strokeWeight(0);
     fill(255,255, 255);
     textAlign(LEFT);
     textSize(30);
-    text(this.score, width/2, 12.9*height/61);
+    text(this.score, width/2, 13.1*height/61);
   }
 
   this.brique_appear = function()
@@ -185,7 +193,7 @@ function Grid(sz,tab) {
       }
     } // fin parcours de boucle
     if (flag) {
-      this.score = this.score + l[0].value*l[0].value;
+      this.score = this.score + this.tab_score[l[0].value];
       grille.evolve(l);
       // generation nouvelles briques
       lo = max(this.n - 6, 1);

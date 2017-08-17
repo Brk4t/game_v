@@ -162,9 +162,9 @@ function EndGame()
     this.input.hide();
 
 
-
     this.b = createButton('Envoyer');
     this.b.position(floor(width/4), this.input.y+this.input.height + 10);
+    this.b.parent("container_game");
     this.b.style("width", floor(width/2)+"px");
     this.b.style("height", floor(height/16)+"px");
     this.b.style("font-size", floor(height/28)+"px");

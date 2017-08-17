@@ -16,7 +16,23 @@ var file = "init_grid.csv";
 
 function setup() {
   //var canvas = createCanvas(min(w,750*2), min(h,1334*2)-5);
-  var canvas = createCanvas(w, 16*w/9);
+  
+  //FORCER LE RAPPORT :
+  if(h/w > 1715/980) // H > W on dit que W est limitant
+  {
+    h=w*1715/980;
+  }else
+  {
+    w = h*980/1715;
+  }
+  
+  
+
+
+  document.getElementById('container_game').style.width = w ;
+  document.getElementById('container_game').style.height = h ;
+  
+  var canvas = createCanvas(w, h);
   print(w);
   print(width);
   print(h);
