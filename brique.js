@@ -27,7 +27,6 @@ function brique(r, n) {
   {
     if (this.y+this.vy<this.posy*this.size+this.ground )
     {
-      print(this.posy*this.size+this.ground);
       this.vy = this.vy+this.ay;
       this.y = this.y+this.vy;
     } else { 

@@ -84,7 +84,6 @@ function mouseClicked()
  function charger()
  {
 	 var to_return =[];
-	 print("ca charge")
 	 $.ajax( {
 		  url: "read_score.php", 
 		  type: 'POST', 
