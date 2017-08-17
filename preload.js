@@ -53,4 +53,13 @@ function preload() {
   
   score= loadImage("img/score.png")
   
+  continuer = loadImage("img/continuer.png")
+  continuer_over = loadImage("img/continuer_over.png")
+  
+  nv_partie = loadImage("img/nv_partie.png")
+  nv_partie_over = loadImage("img/nv_partie_over.png")
+  
+  defaite = loadImage("img/defaite.png")
+  
+  
 }

@@ -50,37 +50,28 @@ function EndGame()
     this.continuer.col_over =color(0, 200, 0);
     this.continuer.col = color(0, 150, 0);
 
-    this.restart.x1 = floor(width/2)-floor(width/3);
-    this.restart.y1 = floor(height*9/16);
-    this.restart.x2 = floor(width/2)+floor(width/3);
-    this.restart.y2 = floor(height*9.8/16);
-    this.restart.text = "Nouvelle partie";
-    this.restart.txt_size = 30;
-    this.restart.col_over = color(200, 0, 0);
-    this.restart.col = color(150, 0, 0);
+    this.restart.x1 = floor(width/2)-floor(width/4);
+    this.restart.y1 = floor(height*9.5/16);
+    this.restart.x2 = floor(width/2)+floor(width/4);
+    this.restart.y2 = floor(height*10.5/16);
 
-    this.menu.x1 = floor(width/2)-floor(width/3);
-    this.menu.y1 = floor(height*10/16);
-    this.menu.x2 = floor(width/2)+floor(width/3);
-    this.menu.y2 = floor(height*11/16);
-    this.menu.text = "Menu";
-    this.menu.txt_size = 30;
-    this.menu.col_over = color(200, 0, 0);
-    this.menu.col = color(150, 0, 0);
+    this.restart.img_bool = true;
+    this.restart.img = nv_partie;
+    this.restart.img_over = nv_partie_over;
+    
+    this.menu.x1 = floor(width/2)-floor(width/4);
+    this.menu.y1 = floor(height*11/16);
+    this.menu.x2 = floor(width/2)+floor(width/4);
+    this.menu.y2 = floor(height*12/16);
     this.menu.img_bool = true;
     this.menu.img = menu;
     this.menu.img_over = menu_over;
-
-
-
-
 
 
     this.partie_rapide.x1 = floor(5*width/35);
     this.partie_rapide.y1 = floor(18*height/61);
     this.partie_rapide.x2 = floor(30*width/35);
     this.partie_rapide.y2 = floor(24*height/61);
-    this.partie_rapide.text = "Partie Rapide";
     this.partie_rapide.img_bool = true;
     this.partie_rapide.img = partie_rapide;
     this.partie_rapide.img_over = partie_rapide_over;
@@ -210,13 +201,8 @@ function EndGame()
     }
     if (this.state == 2) // LOSE 
     {
-      fill(255, 0, 0, 100); // BIG BOX BEHIND
-      rect(width/10, height/6, 8*width/10, 3.5*height/6);
-
-      noStroke();
-      fill(255);
-      textSize(100);
-      text("Perdu", width/2, floor(height*5/16));
+      image(defaite,2.30*w/35,floor(16.4*h/61),floor(30.5*w/35),floor(30.5*w/35))
+      
       if (this.display_submit)
       { 
         this.input.show();
