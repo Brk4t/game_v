@@ -23,7 +23,7 @@ function preload() {
   tile_over[10] = loadImage("img/tile_10_over.png");
   tile_over[11] = loadImage("img/tile_11_over.png");
 
-  bckgrnd = loadImage("img/background.png");
+  bckgrnd = loadImage("img/background_ingame.png");
   continuer= loadImage("img/continuer.png");
   continuer_over = loadImage("img/continuer_over.png");
 
@@ -47,6 +47,10 @@ function preload() {
   information = loadImage("img/information.png");
   information_over = loadImage("img/information_over.png");
 
+  retour = loadImage("img/retour.png");
+  retour_over = loadImage("img/retour_over.png");
+  background_ingame = loadImage("img/background_ingame.png");
   
+  score= loadImage("img/score.png")
   
 }

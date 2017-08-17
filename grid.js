@@ -112,19 +112,8 @@ function Grid(sz,tab) {
   this.display = function()
   {
     strokeWeight(1);
-    stroke(255); //WHAT IS STROKE ?
-    /* LIGNES
-    for (var i =0; i<this.n+1; i++)
-    {
-      line(this.x_to_pix[0], this.y_to_pix[i], this.x_to_pix[this.n+1], this.y_to_pix[i]);
-    }
-    for (var i =0; i<this.n+1; i++)
-    {
-      line(this.x_to_pix[i], this.y_to_pix[0], this.x_to_pix[i], this.y_to_pix[this.n]);
-    }
-    
-    */
-
+    stroke(255); 
+    background(255);
     for (var j =0; j<this.n; j++)
     {
       for (var i=0; i<this.n; i++)
@@ -136,11 +125,15 @@ function Grid(sz,tab) {
         }
       }
     }
+    
+    image(bckgrnd,0,0,width,height);
     //Affiche score:
-    fill(255, 255, 255);
-    textAlign(CENTER);
-    textSize(36);
-    text("Score : " + this.score, width/2, 9*height/10);
+    image(score,10*width/35,11*height/61,24.7*height/61-11*height/61,14.5*width/35-11*width/35);
+    strokeWeight(0);
+    fill(255,255, 255);
+    textAlign(LEFT);
+    textSize(30);
+    text(this.score, width/2, 12.9*height/61);
   }
 
   this.brique_appear = function()

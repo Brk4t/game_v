@@ -71,29 +71,10 @@ function EndGame()
     this.menu.img = menu;
     this.menu.img_over = menu_over;
 
-    this.menu2.x1 = floor(width/2)-floor(3*width/8);
-    this.menu2.y1 = 20;
-    this.menu2.x2 = floor(width/2)-floor(width/8);
-    this.menu2.y2 = floor(height/10);
-    this.menu2.text = "Menu";
-    this.menu2.txt_size = 30;
-    this.menu2.col_over = color(200, 0, 0);
-    this.menu2.col = color(150, 0, 0);
-    this.menu2.img_bool = true;
-    this.menu2.img = menu;
-    this.menu2.img_over = menu_over;
 
-    this.parametres.x1 = floor(width/2)+floor(width/8);
-    this.parametres.y1 = 20;
-    this.parametres.x2 = floor(width/2)+floor(3*width/8);
-    this.parametres.y2 = floor(height/10);
-    this.parametres.text = "Menu";
-    this.parametres.txt_size = 30;
-    this.parametres.col_over = color(200, 0, 0);
-    this.parametres.col = color(150, 0, 0);
-    this.parametres.img_bool = true;
-    this.parametres.img = menu;
-    this.parametres.img_over = menu_over;
+
+
+
 
     this.partie_rapide.x1 = floor(5*width/35);
     this.partie_rapide.y1 = floor(18*height/61);
@@ -140,8 +121,39 @@ function EndGame()
     this.info_menu.img = information;
     this.info_menu.img_over = information_over;
 
+
+    this.menu2.x1 = floor(3.25*width/35);
+    this.menu2.y1 = floor(2.25*height/61);
+    this.menu2.x2 = floor(8.25*width/35);
+    this.menu2.y2 = floor(7.25*height/61);
+    this.menu2.txt_size = 30;
+    this.menu2.col_over = color(200, 0, 0);
+    this.menu2.col = color(150, 0, 0);
+    this.menu2.img_bool = true;
+    this.menu2.img = retour;
+    this.menu2.img_over = retour_over;
+
+    this.info_game = new bouton();
+    this.info_game.x1 = floor(26*width/35);
+    this.info_game.y1 = floor(2*height/61);
+    this.info_game.x2 = floor(31.5*width/35);
+    this.info_game.y2 = floor(7.5*height/61);
+    this.info_game.img_bool = true;
+    this.info_game.img = information;
+    this.info_game.img_over = information_over;
+
+    this.parametres.x1 = floor(14.5*width/35);
+    this.parametres.y1 = floor(2*height/61);
+    this.parametres.x2 = floor(20*width/35);
+    this.parametres.y2 = floor(7.5*height/61);
+    this.parametres.img_bool = true;
+    this.parametres.img = parametres;
+    this.parametres.img_over = parametres_over;
+
     this.input = createInput();
     this.input.position(floor(width/2)-floor(width/3), floor(height*6.5/16));
+    this.input.parent("container_game");
+    
     this.input.value("Pseudo");
     this.input.style("width", floor(2*width/3)+"px");
     this.input.style("height", floor(height/16)+"px");
@@ -259,8 +271,7 @@ function EndGame()
 
     if (this.state == 0 || this.state == 1 || this.state == 2 || this.state == 3)
     {
-      fill(150);
-      rect(0, 0, width, floor(3*height/20));
+      this.info_game.display();
       this.menu2.display();
       this.parametres.display();
     }
