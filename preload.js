@@ -60,6 +60,8 @@ function preload() {
   nv_partie_over = loadImage("img/nv_partie_over.png")
   
   defaite = loadImage("img/defaite.png")
+  victoire  = loadImage("img/victoire.png")
   
+  coming_soon = loadImage("img/coming_soon.png");
   
 }

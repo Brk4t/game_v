@@ -15,7 +15,7 @@ function EndGame()
    6 = menu
    7 = parametres
    */
-  this.state = 2; // 0 pour partie en cours
+  this.state = 6; // 0 pour partie en cours
   this.display_submit = true;
 
   this.init = function()
@@ -41,20 +41,19 @@ function EndGame()
     this.parametres_menu = new bouton();
     this.info_menu = new bouton();
 
-    this.continuer.x1 = floor(width/2)-floor(width/3);
-    this.continuer.y1 = floor(height*7/16);
-    this.continuer.x2 = floor(width/2)+floor(width/3);
-    this.continuer.y2 = floor(height*8/16);
-    this.continuer.text ="Continuer à jouer";
-    this.continuer.txt_size = 30;
-    this.continuer.col_over =color(0, 200, 0);
-    this.continuer.col = color(0, 150, 0);
+    this.continuer.x1 = floor(width/2)-floor(width/4);
+    this.continuer.y1 = floor(height*9.5/16);
+    this.continuer.x2 = floor(width/2)+floor(width/4);
+    this.continuer.y2 = floor(height*10.5/16);
+
+    this.continuer.img_bool = true;
+    this.continuer.img = continuer;
+    this.continuer.img_over = continuer_over;
 
     this.restart.x1 = floor(width/2)-floor(width/4);
     this.restart.y1 = floor(height*9.5/16);
     this.restart.x2 = floor(width/2)+floor(width/4);
     this.restart.y2 = floor(height*10.5/16);
-
     this.restart.img_bool = true;
     this.restart.img = nv_partie;
     this.restart.img_over = nv_partie_over;
@@ -189,15 +188,16 @@ function EndGame()
 
     if (this.state == 1) // WIN
     {
-      fill(0, 255, 0, 220); // BIG BOX BEHIND
-      rect(width/10, height/6, 8*width/10, 3*height/6);
 
-      noStroke();
-      fill(255);
-      textSize(100);
-      text("Gagné", width/2, floor(height*5/16));
+      image(victoire, 2.30*w/35, floor(16.4*h/61), floor(30.5*w/35), floor(30.5*w/35));
+
+      fill(0, 0, 0);
+      textAlign(CENTER);
+      textSize(40);
+      text("Score : " + grille.score, floor(width/2), floor(height*8/16));
 
       this.continuer.display();
+      this.menu.display();
     }
     if (this.state == 2) // LOSE 
     {
@@ -221,8 +221,9 @@ function EndGame()
 
     if (this.state == 4)
     {
-      background(150, 150, 150);
-      text("MODES", width/2, 580);
+      background(250, 250, 250);
+      image(coming_soon, 0, 0, width, height);
+      this.menu2.display();
     }
 
     if (this.state == 5)
@@ -234,28 +235,28 @@ function EndGame()
       }
 
       background(150, 150, 150);
-
+      this.menu2.display();
       text("CLASSEMENT", width/2, height/6);
-      text("Rang", width/6, height/3 - height/15)
-        text("Pseudo", 3*width/6, height/3 - height/15);
-      text("Score", 5*width/6, height/3 - height/15)
-        //text("Date", 5*width/6,height/3 - height/15)
-        for (var i =0; i<this.data_classement.length; i++)
+      text("Rang", width/6, height/3 - height/15);
+      text("Pseudo", 3*width/6, height/3 - height/15);
+      text("Score", 5*width/6, height/3 - height/15);
+      //text("Date", 5*width/6,height/3 - height/15)
+      for (var i =0; i<this.data_classement.length; i++);
       {
         row = this.data_classement[i];
 
-        text("#" + (i+1), width/6, height*i/15 + height/3)
-          text(row.pseudo, 3*width/6, height*i/15+ height/3)
-          text(row.score, 5*width/6, height*i/15 + height/3)
-          //text(row.date, 5*width/6,height*i/15+ height/3)
+        text("#" + (i+1), width/6, height*i/15 + height/3);
+        text(row.pseudo, 3*width/6, height*i/15+ height/3);
+        text(row.score, 5*width/6, height*i/15 + height/3);
+        //text(row.date, 5*width/6,height*i/15+ height/3)
       }
-      this.menu2.display();
+      
     } else
     {
       this.load_bool = false;
     }
 
-    if (this.state == 0 || this.state == 1 || this.state == 2 || this.state == 3)
+    if (this.state == 0 || this.state == 1 || this.state == 2 || this.state == 3 )
     {
       this.info_game.display();
       this.menu2.display();
@@ -274,11 +275,14 @@ function EndGame()
     {
       this.state =7;
     }
+    if (this.menu.mouseon()) // BOUTON MENU
+    {
+      this.state =6; // MENU
+    }
   }
 
   this.click_perdre = function()
   {
-    console.log("click perdre state="+this.state);
     if (this.restart.mouseon()) // BOUTON REPLAY
     {
       grille = new Grid(sz, table_init);
@@ -289,7 +293,6 @@ function EndGame()
     {
       this.state =6; // MENU
     }
-    console.log("click perdre state="+this.state);
   }
 
   this.click_menu = function()
@@ -316,6 +319,7 @@ function EndGame()
       this.state = 6;
     }
   }
+  
   this.click_partie_rapide = function()
   {
     if (!grille.continuer)
