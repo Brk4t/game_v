@@ -1,7 +1,13 @@
 // GAME VERSION 1.0
+try {
 var w = $(window).width();
 var h = $(window).height() == 0 ? window.innerHeight : $(window).height();
-
+}
+catch(e)
+{
+  var w = 500;
+  var h = 1.7*500
+}
 var test1;
 var test2;
 var test3;

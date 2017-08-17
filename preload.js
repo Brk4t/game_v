@@ -31,13 +31,22 @@ function preload() {
   menu_over= loadImage("img/menu_over.png");
   
   classement= loadImage("img/classement.png");
-  classement_over= loadImage("img/classement.png");
+  classement_over= loadImage("img/classement_over.png");
 
-  modes= loadImage("img/modes.png");
-  modes_over= loadImage("img/modes.png");
+  modes= loadImage("img/modes_de_jeu.png");
+  modes_over= loadImage("img/modes_de_jeu_over.png");
 
   partie_rapide = loadImage("img/partie_rapide.png");
   partie_rapide_over = loadImage("img/partie_rapide_over.png");
   
   background_menu = loadImage("img/background_menu.png");
+  
+  parametres = loadImage("img/parameters.png");
+  parametres_over = loadImage("img/parameters_over.png");
+  
+  information = loadImage("img/information.png");
+  information_over = loadImage("img/information_over.png");
+
+  
+  
 }

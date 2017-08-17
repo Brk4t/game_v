@@ -1,7 +1,7 @@
 function change_input()
- {
-	 affichage.input.value("");
- }
+{
+  affichage.input.value("");
+}
 
 
 function EndGame()
@@ -16,13 +16,13 @@ function EndGame()
    7 = parametres
    */
   this.state = 2; // 0 pour partie en cours
- this.display_submit = true;
-  
+  this.display_submit = true;
+
   this.init = function()
   {
-	this.load_bool = false;
-	this.data_classement = [];
-	
+    this.load_bool = false;
+    this.data_classement = [];
+
     //Boutons menu
     this.classement = new bouton();
     this.partie_rapide = new bouton();
@@ -37,6 +37,9 @@ function EndGame()
 
     this.menu2 = new bouton();
     this.parametres = new bouton();
+
+    this.parametres_menu = new bouton();
+    this.info_menu = new bouton();
 
     this.continuer.x1 = floor(width/2)-floor(width/3);
     this.continuer.y1 = floor(height*7/16);
@@ -92,53 +95,71 @@ function EndGame()
     this.parametres.img = menu;
     this.parametres.img_over = menu_over;
 
-    this.partie_rapide.x1 = floor(width/2)-floor(width/3);
-    this.partie_rapide.y1 = floor(2/5*height)-floor(height/15);
-    this.partie_rapide.x2 = floor(width/2)+floor(width/3);
-    this.partie_rapide.y2 = floor(2/5*height)+floor(height/15);
+    this.partie_rapide.x1 = floor(5*width/35);
+    this.partie_rapide.y1 = floor(18*height/61);
+    this.partie_rapide.x2 = floor(30*width/35);
+    this.partie_rapide.y2 = floor(24*height/61);
     this.partie_rapide.text = "Partie Rapide";
     this.partie_rapide.img_bool = true;
     this.partie_rapide.img = partie_rapide;
     this.partie_rapide.img_over = partie_rapide_over;
 
-    this.modes.x1 = floor(width/2)-floor(width/3);
-    this.modes.y1 = floor(3/5*height)-floor(height/15);
-    this.modes.x2 = floor(width/2)+floor(width/3);
-    this.modes.y2 = floor(3/5*height)+floor(height/15);
+
+
+    this.modes.x1 = floor(5*width/35);
+    this.modes.y1 = floor(28*height/61);
+    this.modes.x2 = floor(30*width/35);
+    this.modes.y2 = floor(34*height/61);
     this.modes.text = "Modes";
     this.modes.img_bool = true;
     this.modes.img = modes;
     this.modes.img_over = modes_over;
 
-    this.classement.x1 = floor(width/2)-floor(width/3);
-    this.classement.y1 = floor(4/5*height)-floor(height/15);
-    this.classement.x2 = floor(width/2)+floor(width/3);
-    this.classement.y2 = floor(4/5*height)+floor(height/15);
+    this.classement.x1 = floor(5*width/35);
+    this.classement.y1 = floor(38*height/61);
+    this.classement.x2 = floor(30*width/35);
+    this.classement.y2 = floor(44*height/61);
     this.classement.text = "Classement";
     this.classement.img_bool = true;
     this.classement.img = classement;
     this.classement.img_over = classement_over;
-	
-	this.input = createInput();
-	this.input.position(floor(width/2)-floor(width/3), floor(height*6.5/16));
-	this.input.value("Pseudo");
-	this.input.style("width", floor(2*width/3)+"px");
-	this.input.style("height", floor(height/16)+"px");
-	this.input.style("font-size", floor(height/28)+"px");
-	this.input.touchStarted(change_input);
-	this.input.hide();
 
-	
-	
-	this.b = createButton('Envoyer');
-	this.b.position(floor(width/4), this.input.y+this.input.height + 10);
-	this.b.style("width", floor(width/2)+"px");
-	this.b.style("height", floor(height/16)+"px");
-	this.b.style("font-size", floor(height/28)+"px");
-	this.b.mousePressed(send);
-	this.b.hide();
+    this.parametres_menu.x1 = floor(21*width/35);
+    this.parametres_menu.y1 = floor(48*height/61);
+    this.parametres_menu.x2 = floor(27*width/35);
+    this.parametres_menu.y2 = floor(54*height/61);
+    this.parametres_menu.img_bool = true;
+    this.parametres_menu.img = parametres;
+    this.parametres_menu.img_over = parametres_over;
+
+    this.info_menu.x1 = floor(7*width/35);
+    this.info_menu.y1 = floor(48*height/61);
+    this.info_menu.x2 = floor(13*width/35);
+    this.info_menu.y2 = floor(54*height/61);
+    this.info_menu.img_bool = true;
+    this.info_menu.img = information;
+    this.info_menu.img_over = information_over;
+
+    this.input = createInput();
+    this.input.position(floor(width/2)-floor(width/3), floor(height*6.5/16));
+    this.input.value("Pseudo");
+    this.input.style("width", floor(2*width/3)+"px");
+    this.input.style("height", floor(height/16)+"px");
+    this.input.style("font-size", floor(height/28)+"px");
+    this.input.touchStarted(change_input);
+    this.input.hide();
+
+
+
+    this.b = createButton('Envoyer');
+    this.b.position(floor(width/4), this.input.y+this.input.height + 10);
+    this.b.style("width", floor(width/2)+"px");
+    this.b.style("height", floor(height/16)+"px");
+    this.b.style("font-size", floor(height/28)+"px");
+    this.b.mousePressed(send);
+    this.b.hide();
   }
-	
+
 
   this.gagner = function() {
     if (this.state == 0)
@@ -149,18 +170,18 @@ function EndGame()
 
   this.perdre = function() {
     this.state = 2;
-	this.display_submit = true;
+    this.display_submit = true;
   }
 
 
-  
-  
+
+
   this.show = function() {
     if (this.state == 6)
     {
 
-		flag = 0;
-		this.display_menu();
+      flag = 0;
+      this.display_menu();
     }
 
     if (this.state == 1) // WIN
@@ -175,7 +196,7 @@ function EndGame()
 
       this.continuer.display();
     }
-	if (this.state == 2) // LOSE 
+    if (this.state == 2) // LOSE 
     {
       fill(255, 0, 0, 100); // BIG BOX BEHIND
       rect(width/10, height/6, 8*width/10, 3.5*height/6);
@@ -184,60 +205,57 @@ function EndGame()
       fill(255);
       textSize(100);
       text("Perdu", width/2, floor(height*5/16));
-	  if(this.display_submit)
-	  { 
-	  this.input.show();
-	  this.b.show();
-	  }else
-	  {
-		this.input.hide();
-		this.b.hide();
-	  }
+      if (this.display_submit)
+      { 
+        this.input.show();
+        this.b.show();
+      } else
+      {
+        this.input.hide();
+        this.b.hide();
+      }
       this.restart.display();
       this.menu.display();
-	  
-
-    }else{
-	this.input.hide();
-	this.b.hide();
-	}
+    } else {
+      this.input.hide();
+      this.b.hide();
+    }
 
     if (this.state == 4)
     {
       background(150, 150, 150);
       text("MODES", width/2, 580);
     }
-	
+
     if (this.state == 5)
     {
-		if(!this.load_bool)
-		{
-			this.load_bool = true;
-			charger();
-		}
-		
-		background(150, 150 , 150);
-		
-		text("CLASSEMENT", width/2, height/6);
-		text("Rang", width/6,height/3 - height/15)
-		text("Pseudo", 3*width/6,height/3 - height/15);
-		text("Score", 5*width/6,height/3 - height/15)
-		//text("Date", 5*width/6,height/3 - height/15)
-		for(var i =0;i<this.data_classement.length;i++)
-		{
-			row = this.data_classement[i];
-			
-			text("#" + (i+1), width/6,height*i/15 + height/3)
-			text(row.pseudo, 3*width/6,height*i/15+ height/3)
-			text(row.score, 5*width/6,height*i/15 + height/3)
-			//text(row.date, 5*width/6,height*i/15+ height/3)
-		}
-		this.menu2.display();
+      if (!this.load_bool)
+      {
+        this.load_bool = true;
+        charger();
+      }
 
-    }else
-	{
-		this.load_bool = false;
-	}
+      background(150, 150, 150);
+
+      text("CLASSEMENT", width/2, height/6);
+      text("Rang", width/6, height/3 - height/15)
+        text("Pseudo", 3*width/6, height/3 - height/15);
+      text("Score", 5*width/6, height/3 - height/15)
+        //text("Date", 5*width/6,height/3 - height/15)
+        for (var i =0; i<this.data_classement.length; i++)
+      {
+        row = this.data_classement[i];
+
+        text("#" + (i+1), width/6, height*i/15 + height/3)
+          text(row.pseudo, 3*width/6, height*i/15+ height/3)
+          text(row.score, 5*width/6, height*i/15 + height/3)
+          //text(row.date, 5*width/6,height*i/15+ height/3)
+      }
+      this.menu2.display();
+    } else
+    {
+      this.load_bool = false;
+    }
 
     if (this.state == 0 || this.state == 1 || this.state == 2 || this.state == 3)
     {
@@ -248,7 +266,7 @@ function EndGame()
     }
   } // Fin show
 
-    
+
   this.click_gagne = function()
   {
     if (this.continuer.mouseon())
@@ -282,11 +300,10 @@ function EndGame()
     if (this.classement.mouseon())
     {
       this.click_classement();
-	  charger();
+      charger();
     } else if (this.partie_rapide.mouseon())
     {
       this.click_partie_rapide();
-	  
     } else if (this.modes.mouseon())
     {
       this.click_modes();
@@ -295,7 +312,7 @@ function EndGame()
 
   this.click_menu2= function()
   {
-	  this.load_bool = false;
+    this.load_bool = false;
     if (this.menu2.mouseon())
     {
       grille.continuer = true;
@@ -324,8 +341,9 @@ function EndGame()
 
   this.display_menu = function()
   {
-	image(background_menu,0,0,width,height);
-
+    image(background_menu, 0, 0, width, height);
+    this.info_menu.display();
+    this.parametres_menu.display();
     this.partie_rapide.display();
     this.modes.display();
     this.classement.display();

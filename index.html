@@ -28,34 +28,6 @@ margin:
   </head>
 
   <body>
-  <h1>Crazy 7</h1>
   <div id="container_game" style="margin: 0px auto; text-align: center">
-  </div>
-  <form method="post" action="score.php">
-  Username: 
-<input type="text" name="pseudo" /> <input type="submit" value="Submit score" />
-  <input type="hidden" name="score" value="0" id="score_player"/>
-  </form>
-
-  <script>
-  $.ajax( {
-  url: save_score.php, 
-  type: 'GET', 
-  data: 'score=34324&pseudo=Burel', 
-  success: function(code_html, statut) { 
-    //ce qu'on veut faire une fois le score sauvegardé
-  }
-}
-)
-
-</script>
-
-  <p>The rules of this game are simple:
-</p>
-  <ul>
-  <li>Merge two "2" to create a 3.</li>
-  <li>Merge three "3" to create a 4.</li>
-  <li>And so on... until you create a 7 to win the game!</li>
-  </ul>
   </body>
   </html>
